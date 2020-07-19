@@ -1,6 +1,8 @@
 .PrimaryCTA {
-    border-radius: 50%;
+    border: none;
+    border-radius: 50px;
     width: 100px;
-    height : 50px;
+    height : 35px;
     background-color: #FF4500;
+    margin: 10px;
 }

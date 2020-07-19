@@ -4,7 +4,7 @@ import style from './SecondaryCTA.module.css'
 
 const SecondaryCTA = (props) => {
     return (
-        <button style = {style.PrimaryCTA}>
+        <button className = {style.SecondaryCTA}>
             {props.text}
         </button>
     )

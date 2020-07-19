@@ -3,7 +3,7 @@ import style from './PrimaryCTA.module.css'
 
 const PrimaryCTA = (props) => {
     return (
-        <button style = {style.PrimaryCTA}>
+        <button className = {style.PrimaryCTA}>
             {props.text}
         </button>
     )
