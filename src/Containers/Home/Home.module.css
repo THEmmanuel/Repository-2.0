@@ -1,20 +1,22 @@
 span {
     display: block;
+    margin-bottom: 10px;
 }
 
 .Introduction {
     width : 33%;
-    margin: 50px;
+    margin: 150px;
 }
 
 .NamePre {
     font-size: 2em;
     font-weight: 600;
     color: #141414;
+    margin: -20px 0;
 }
 
 .Name {
-    font-size: 8em;
+    font-size: 7em;
     color: #FF4500;
     font-weight: bold;
 }
@@ -23,4 +25,11 @@ span {
     color: #FF4500;
     font-size: 3em;
     font-weight: 650;
+}
+
+.LongDescription{
+    color : #FE4400;
+    width: 70%;
+    text-align: left;
+    font-size: 1.5em;
 }
