@@ -3,16 +3,24 @@ span {
     margin-bottom: 10px;
 }
 
+.Home {
+    background-color: #E5E5E5;
+    height: 100vh;
+}
+
 .Introduction {
     width : 33%;
-    margin: 150px;
+    /* margin: 150px; */
+    position: relative;
+    top: 250px;
+    left: 150px;
 }
 
 .NamePre {
     font-size: 2em;
     font-weight: 600;
     color: #141414;
-    margin: -20px 0;
+    /* margin: -20px 0; */
 }
 
 .Name {
