@@ -1,0 +1,26 @@
+span {
+    display: block;
+}
+
+.Introduction {
+    width : 33%;
+    margin: 50px;
+}
+
+.NamePre {
+    font-size: 2em;
+    font-weight: 600;
+    color: #141414;
+}
+
+.Name {
+    font-size: 8em;
+    color: #FF4500;
+    font-weight: bold;
+}
+
+.ShortDescription {
+    color: #FF4500;
+    font-size: 3em;
+    font-weight: 650;
+}
