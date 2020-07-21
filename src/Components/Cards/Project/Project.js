@@ -7,12 +7,12 @@ import SecondaryCTA from '../../Buttons/SecondaryCTA/SecondaryCTA'
 const Project = (props) => {
     return (
         <div className={style.Project}>
-            <img src={props.ProjectImage} alt="" />
+            <img src={props.ProjectImage} alt="" className = {style.ProjectImage}/>
 
             <div className={style.ProjectDetails}>
-                <span clasName={style.ProjectName}>Project X</span>
-                <span className={style.ProjectDescription}> </span>
-                <div>
+                <span className={style.ProjectName}>Project X</span>
+                <span className={style.ProjectDescription}> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, aliquam quia? Deserunt corporis deleniti maiores laboriosam similique pariatur sunt voluptatum corrupti omnis commodi accusamus repellendus consequatur ut sed, voluptatem tenetur. </span>
+                <div className = {style.ProjectCTAs}>
                     <PrimaryCTA text = 'Visit Site'/>
                     <SecondaryCTA text = 'View Code'/>
                 </div>

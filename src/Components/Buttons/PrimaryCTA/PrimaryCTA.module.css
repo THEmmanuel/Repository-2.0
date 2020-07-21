@@ -4,7 +4,7 @@
     width: 120px;
     height : 45px;
     background-color: #FF4500;
-    margin: 10px;
+    margin: 10px 10px 10px 0;
     color: #FFF;
     transition: all 0.5s ease-out;
 }
