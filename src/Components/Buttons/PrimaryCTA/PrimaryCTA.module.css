@@ -6,5 +6,11 @@
     background-color: #FF4500;
     margin: 10px;
     color: #FFF;
-    /* font-size: 1.2em; */
+    transition: all 0.5s ease-out;
+}
+
+.PrimaryCTA:hover{
+    border: 2px solid #FF4500;
+    background-color: transparent;
+    color: #FF4500;
 }

@@ -6,4 +6,11 @@
     background-color: #FF9A75;
     margin: 10px;
     color: #FFF;
+    transition: all 0.5s ease-out;
+}
+
+.SecondaryCTA:hover{
+    border: 2px solid #FF9A75;
+    background-color: transparent;
+    color: #FF9A75;
 }
