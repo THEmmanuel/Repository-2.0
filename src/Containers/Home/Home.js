@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Home.module.css';
-// import NavBar from '.././NavBar/NavBar'
+import NavBar from '.././NavBar/NavBar'
 import PrimaryCTA from '../../Components/Buttons/PrimaryCTA/PrimaryCTA';
 import SecondaryCTA from '../../Components/Buttons/SecondaryCTA/SecondaryCTA';
 
@@ -9,6 +9,7 @@ import HomeAnimation from '../../Assets/SVG/Asset 6.svg'
 const Home = (props) => {
     return (
         <div className={style.Home}>
+                <NavBar/>
             <div className={style.Introduction}>
                 <div>
 

@@ -4,12 +4,12 @@ import style from './NavBar.module.css'
 const NavBar = () => {
     return (
         <header>
-            <nav classNane = {style.NavBar}>
+            <nav className = {style.NavBar}>
                 <div>
                     Logo will be here
                 </div>
 
-                <div>
+                <div className = {style.NavItems}>
                     <ul>
                         <li>Home</li>
                         <li>Portfolio</li>
