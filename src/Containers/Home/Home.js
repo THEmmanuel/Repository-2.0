@@ -1,8 +1,10 @@
 import React from 'react';
 import style from './Home.module.css';
-import NavBar from '.././NavBar/NavBar'
+// import NavBar from '.././NavBar/NavBar'
 import PrimaryCTA from '../../Components/Buttons/PrimaryCTA/PrimaryCTA';
 import SecondaryCTA from '../../Components/Buttons/SecondaryCTA/SecondaryCTA';
+
+import HomeAnimation from '../../Assets/SVG/Asset 6.svg'
 
 const Home = (props) => {
     return (
@@ -27,13 +29,15 @@ const Home = (props) => {
                 </span>
 
                 </div>
+
                 <div className={style.Buttons}>
                     <PrimaryCTA text='See My Work' />
                     <SecondaryCTA text='About Me' />
                 </div>
-
             </div>
-
+            
+            {/* <span className={style.TextBackground} >Emmanuel</span> */}
+            <img src={HomeAnimation} alt="" className={style.HomeAnimation} />
         </div>
     )
 }

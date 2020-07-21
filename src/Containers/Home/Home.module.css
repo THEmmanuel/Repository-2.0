@@ -5,7 +5,7 @@ span {
 
 .Home {
     background-color: #E5E5E5;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .Introduction {
@@ -17,21 +17,21 @@ span {
 }
 
 .NamePre {
-    font-size: 2em;
+    font-size: 20px;
     font-weight: 600;
     color: #141414;
     /* margin: -20px 0; */
 }
 
 .Name {
-    font-size: 7em;
+    font-size: 80px;
     color: #FF4500;
     font-weight: bold;
 }
 
 .ShortDescription {
     color: #FF4500;
-    font-size: 3em;
+    font-size: 35px;
     font-weight: 650;
 }
 
@@ -39,5 +39,20 @@ span {
     color : #FE4400;
     width: 70%;
     text-align: left;
-    font-size: 1.5em;
+    font-size: 20px;
+}
+
+.HomeAnimation {
+    width: 250px;
+    position: relative;
+    left: 1200px;
+}
+
+.TextBackground {
+    z-index: 0;
+    font-size: 350px;
+    font-weight: bolder;
+    color: #E5E1E0;
+    position: relative;
+    top: 50px;
 }

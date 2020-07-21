@@ -1,9 +1,10 @@
 import React from 'react'
+import style from './NavBar.module.css'
 
 const NavBar = () => {
     return (
         <header>
-            <nav>
+            <nav classNane = {style.NavBar}>
                 <div>
                     Logo will be here
                 </div>

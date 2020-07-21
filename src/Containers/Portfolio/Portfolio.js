@@ -5,7 +5,7 @@ const Portfolio = () => {
     return (
 
         <div className={style.Portfolio}>
-
+            
         </div>
     
     )
