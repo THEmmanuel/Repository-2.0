@@ -5,6 +5,8 @@ import Home from './Containers/Home/Home';
 import Portfolio from './Containers/Portfolio/Portfolio';
 import Work from './Containers/Work/Work';
 import About from './Containers/About/About'
+import Contact from './Containers/Contact/Contact'
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
         <Portfolio/>
         <Work/>
         <About/>
+        <Contact/>
     </div>
   );
 }
