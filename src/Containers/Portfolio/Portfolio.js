@@ -7,7 +7,10 @@ import PortfolioAnimation from '../../Assets/SVG/Asset 8.svg';
 const Portfolio = () => {
     return (
 
-        <div className={style.Portfolio}>
+        <section className={style.Portfolio}>
+            <span className = {style.SectionTitle}>
+                My Portfolio.
+            </span>
             <div className={style.Projects}>
                 <Project
                     ProjectImage={TestImage}
@@ -28,7 +31,7 @@ const Portfolio = () => {
 
             <img src={PortfolioAnimation} className={style.PortfolioAnimation} alt="" />
 
-        </div>
+        </section>
 
     )
 }
