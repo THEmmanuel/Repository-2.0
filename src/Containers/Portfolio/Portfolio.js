@@ -8,9 +8,9 @@ const Portfolio = () => {
     return (
 
         <section className={style.Portfolio}>
-            <span className = {style.SectionTitle}>
+            <h2 className = {style.SectionTitle}>
                 My Portfolio.
-            </span>
+            </h2>
             <div className={style.Projects}>
                 <Project
                     ProjectImage={TestImage}
