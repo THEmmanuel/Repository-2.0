@@ -2,3 +2,20 @@
     height: 100vh;
     background-color: #E8DDD9;
 }
+
+.AboutContent {
+    width: 500px;
+}
+
+.AboutImage{
+    background: #000;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.AboutDescription{
+    color: #FF9A75;
+    
+}
+
