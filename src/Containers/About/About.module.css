@@ -5,17 +5,29 @@
 
 .AboutContent {
     width: 500px;
+    padding: 50px;
+    margin: auto;
 }
 
 .AboutImage{
+    display: block;
     background: #000;
     height: 200px;
     width: 200px;
     border-radius: 50%;
+    margin: 30px auto;
 }
 
 .AboutDescription{
     color: #FF9A75;
-    
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.AboutAnimation{
+    width: 300px;
+    padding: 0 0 0 30px;
 }
 
