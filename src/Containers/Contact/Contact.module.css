@@ -2,5 +2,21 @@
     height: 100vh;
 }
 
+.ContactText{
+    text-align: center;
+}
+
+.ContactButtons{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    margin: auto;
+    /* background-color: yellow; */
+}
+
+.ContactContent{
+    margin: auto;
+    width: 500px;
+}
 
 
