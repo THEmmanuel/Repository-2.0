@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './Contact.module.css'
 import ContactButton from '../../Components/Buttons/ContactButton/ContactButton';
+import ContactAnimation from '../../Assets/SVG/Asset 6.svg'
 
 const Contact = (props) => {
     return (
@@ -17,6 +18,7 @@ const Contact = (props) => {
                 </div>
 
             </div>
+            <img src={ContactAnimation} alt="" className = {style.ContactAnimation}/>
         </section>
     )
 }
