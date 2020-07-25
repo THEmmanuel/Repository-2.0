@@ -1,4 +1,11 @@
 .Footer {
-    height: 20vh;
+    height: 12vh;
     background-color: #E8DDD9;
+}
+
+.FooterText {
+    font-size: 18px;
+    font-weight: 600;
+    /* margin: auto; */
+    color: #FF4500;
 }

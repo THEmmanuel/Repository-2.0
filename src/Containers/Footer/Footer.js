@@ -4,7 +4,9 @@ import style from './Footer.module.css'
 const Footer = () => {
     return (
         <div className = {style.Footer}>
-            Footer shii will be shown here
+            <span className = {style.FooterText}>
+                Made with &hearts; by Emmanuel Ayodele
+            </span>
         </div>
     )
 }
