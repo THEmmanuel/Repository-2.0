@@ -4,6 +4,7 @@
 
 .ContactText{
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .ContactButtons{
@@ -21,7 +22,11 @@
 }
 
 .ContactAnimation{
-    
+    width: 250px;
+    position: relative;
+    left: 85%;
+    /* top: 75%; */
+    /* bottom: 0px; */
 }
 
 

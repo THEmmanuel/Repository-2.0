@@ -45,7 +45,7 @@ span {
 .HomeAnimation {
     width: 250px;
     position: relative;
-    left: 1200px;
+    left: 70%;
 }
 
 .TextBackground {
@@ -54,5 +54,5 @@ span {
     font-weight: bolder;
     color: #E5E1E0;
     position: relative;
-    top: 50px;
+    top: 50%;
 }
