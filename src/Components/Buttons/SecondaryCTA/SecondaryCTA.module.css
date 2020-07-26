@@ -1,16 +1,17 @@
 .SecondaryCTA {
-    border: none;
-    border-radius: 50px;
+    border: 1px solid #FF9A75;
+    border-radius: 2px;
     width: 120px;
     height : 45px;
-    background-color: #FF9A75;
+    background-color: transparent;
     margin: 10px;
-    color: #FFF;
+    color: #FF9A75;
+    opacity: 87%;
     transition: all 0.5s ease-out;
 }
 
 .SecondaryCTA:hover{
-    border: 2px solid #FF9A75;
-    background-color: transparent;
-    color: #FF9A75;
+    border: none;
+    background-color: #FF9A75;
+    color: #FFF;
 }
