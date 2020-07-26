@@ -4,7 +4,7 @@ span {
 }
 
 .Home {
-    background-color: #E5E5E5;
+    background-color: #121212;
     /* height: 100vh; */
 }
 
@@ -25,19 +25,22 @@ span {
 
 .Name {
     font-size: 80px;
-    color: #FF4500;
+    color: #FFf;
+    opacity: 87%;
     font-weight: bold;
 }
 
 .ShortDescription {
     color: #FF4500;
+    opacity: 60%;
     font-size: 35px;
     font-weight: 650;
 }
 
 .LongDescription{
-    color : #FE4400;
+    color : #FFF;
     width: 70%;
+    opacity: 60%;
     text-align: left;
     font-size: 20px;
 }

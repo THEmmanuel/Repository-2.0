@@ -32,8 +32,8 @@ const Home = (props) => {
                 </div>
 
                 <div className={style.Buttons}>
-                    <PrimaryCTA text='See My Work' />
-                    <SecondaryCTA text='About Me' />
+                    <PrimaryCTA text='My Work' />
+                    <SecondaryCTA text='Contact Me' />
                 </div>
             </div>
             

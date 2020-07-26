@@ -1,11 +1,13 @@
 .PrimaryCTA {
-    border: none;
-    border-radius: 50px;
+    border: 1px solid #FF4500    /* background-color: #FF4500; */
+    ;
+    border-radius: 15px;
     width: 120px;
     height : 45px;
-    background-color: #FF4500;
+    background-color: transparent;
     margin: 10px 10px 10px 0;
-    color: #FFF;
+    color: #FF4500;
+    opacity: 87%;
     transition: all 0.5s ease-out;
 }
 

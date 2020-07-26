@@ -1,5 +1,5 @@
 .Portfolio {
-    background-color: #E8DDD9;
+    background-color: #1F1F1F;
     /* height: ; */
 
 }
@@ -13,9 +13,10 @@
 }
 
 .SectionTitle{
-    color: #FF9A75;
+    color: #FF4500;
     font-weight: 600;
     font-size: 35px;
-    padding: 40px;
+    padding-left: 150px;
+    opacity: 30%;
     margin: 0;
 }
