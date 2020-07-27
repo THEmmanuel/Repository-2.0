@@ -19,13 +19,15 @@
 }
 
 .ProjectName {
-    color: #FF4500;
+    color: #FFF;
+    opacity: 87%;
     font-size: 35px;
     font-weight: 600;
 }
 
 .ProjectDescription {
-    color: #F48A64;
+    color: #FFF;
+    opacity: 60%;
     text-align: left;
     font-size: 18px;
 }

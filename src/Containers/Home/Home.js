@@ -4,7 +4,7 @@ import NavBar from '.././NavBar/NavBar'
 import PrimaryCTA from '../../Components/Buttons/PrimaryCTA/PrimaryCTA';
 import SecondaryCTA from '../../Components/Buttons/SecondaryCTA/SecondaryCTA';
 
-import HomeAnimation from '../../Assets/SVG/Asset 6.svg'
+import HomeAnimation from '../../Assets/SVG/Asset 10.svg'
 
 const Home = (props) => {
     return (

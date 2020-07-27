@@ -9,7 +9,7 @@ const Portfolio = () => {
 
         <section className={style.Portfolio}>
             <h2 className = {style.SectionTitle}>
-                My Portfolio.
+                My Work.
             </h2>
             <div className={style.Projects}>
                 <Project
