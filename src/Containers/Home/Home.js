@@ -22,7 +22,7 @@ const Home = (props) => {
                 </span>
 
                     <span className={style.ShortDescription}>
-                        I craft Amazing web experiences.
+                        I craft amazing web experiences.
                 </span>
 
                     <span className={style.LongDescription}>
