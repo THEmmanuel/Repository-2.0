@@ -4,5 +4,22 @@
 }
 
 .WorkAnimation {
-    width: 550px;
+    width: 600px;
+    position: relative;
+    left: 65%;
+    top: 250px;
+}
+
+.WorkExperiences{
+    
+}
+
+.WorkExperience{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #FFF;
+    opacity: 60%;
+    width: 900px;
+    margin: auto;
+    font-size: 20px;
 }

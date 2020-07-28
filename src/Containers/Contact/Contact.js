@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Contact.module.css'
 import ContactButton from '../../Components/Buttons/ContactButton/ContactButton';
-import ContactAnimation from '../../Assets/SVG/Asset 6.svg'
+import ContactAnimation from '../../Assets/SVG/Asset 10.svg'
 
 const Contact = (props) => {
     return (

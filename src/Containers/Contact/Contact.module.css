@@ -26,11 +26,11 @@
 }
 
 .ContactAnimation{
-    width: 250px;
+    width: 550px;
     position: relative;
-    left: 85%;
+    left: 65%;
     /* top: 75%; */
-    /* bottom: 0px; */
+    bottom: 50px;
 }
 
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Work.module.css';
-import WorkAnimation from '../../Assets/SVG/Asset 7.svg'
+import WorkAnimation from '../../Assets/SVG/Asset 11.svg'
 
 
 const Work = () => {

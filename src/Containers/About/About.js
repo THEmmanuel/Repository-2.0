@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './About.module.css'
 import TestImage from '../../Assets/testImage.jpg'
-import AboutAnimation from '../../Assets/SVG/Asset 9.svg'
+import AboutAnimation from '../../Assets/SVG/Asset 12.svg'
 
 const About = () => {
     return (

@@ -1,13 +1,13 @@
 .Portfolio {
     background-color: #1F1F1F;
-    /* height: ; */
+    /* height: 100vh; */
 
 }
 
 .PortfolioAnimation {
-    width: 250px;
-    left: 80%;
-    /* bottom: 250px; */
+    width: 500px;
+    left: 65%;
+    bottom: 150px;
     position: relative;
 }
 
