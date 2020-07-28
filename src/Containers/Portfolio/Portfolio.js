@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Portfolio.module.css';
 import Project from '../../Components/Cards/Project/Project';
-import TestImage from '../../Assets/testImage.jpg'
+import TestImage from '../../Assets/TestImage02.png'
 import PortfolioAnimation from '../../Assets/SVG/Asset 13.svg';
 
 const Portfolio = () => {

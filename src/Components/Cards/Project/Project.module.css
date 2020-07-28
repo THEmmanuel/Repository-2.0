@@ -1,14 +1,14 @@
 .Project {
     margin: 0 auto;
-    padding: 80px;
+    padding: 120px;
     display: grid;
     /* grid-gap: 20px; */
     grid-template-columns: 1fr 1fr;
 }
 
 .ProjectImage {
-    width: 600px;
-    height: 300px;
+    width: 720px;
+    /* height: 300px; */
     margin: auto;
 }
 

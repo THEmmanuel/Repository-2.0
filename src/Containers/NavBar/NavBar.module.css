@@ -1,11 +1,13 @@
 .NavBar {
     width: 100%;
     position: fixed;
+    /* height: 10vh; */
     z-index: 2;
     top: 0px;
     left: 0px;
     color: #FF4500;
-    padding: 20px;
+    padding: 10px;
+    background-color: #121212;
 }
 
 .NavItems{
@@ -14,7 +16,7 @@
 }
 
 .NavLogo {
-    margin: 20px;
+    margin: 10px;
     width: 60px;
 
 }
