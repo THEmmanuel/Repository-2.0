@@ -5,16 +5,24 @@
     top: 0px;
     left: 0px;
     color: #FF4500;
+    padding: 20px;
 }
 
 .NavItems{
     float: right;
-    margin-right: 50px;
+    margin: 0 50px;
+}
+
+.NavLogo {
+    margin: 20px;
+    width: 60px;
+
 }
 
 .NavItems ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 30px;
-    font-size: 17px;
+    font-size: 15px;
+    margin-top: 10px;
 }

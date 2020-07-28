@@ -6,6 +6,9 @@
 .ContactText{
     text-align: center;
     margin-bottom: 50px;
+    font-size: 20px;
+    color: #FFF;
+    opacity: 60%; 
 }
 
 .ContactButtons{

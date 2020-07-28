@@ -19,7 +19,8 @@ span {
 .NamePre {
     font-size: 20px;
     font-weight: 600;
-    color: #141414;
+    color: #FFF;
+    opacity: 38%;
     /* margin: -20px 0; */
 }
 

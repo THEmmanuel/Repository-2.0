@@ -1,13 +1,13 @@
 import React from 'react'
 import style from './NavBar.module.css'
+import Logo from '../../Assets/SVG/Logo.svg'
 
 const NavBar = () => {
     return (
         <header>
             <nav className = {style.NavBar}>
-                <div>
-                    Logo will be here
-                </div>
+                <img src={Logo} alt="" className = {style.NavLogo}/>
+                    {/* Logo will be here */}
 
                 <div className = {style.NavItems}>
                     <ul>

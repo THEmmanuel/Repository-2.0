@@ -5,8 +5,11 @@
 
 .FooterText {
     /* display: block; */
+    width: fit-content;
     font-size: 18px;
     font-weight: 600;
-    /* margin: auto; */
-    color: #FF4500;
+    margin: auto;
+    color: #FFF;
+    opacity: 60%;
+    padding-top: 40px;
 }
