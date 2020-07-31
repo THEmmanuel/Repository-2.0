@@ -1,22 +1,23 @@
 .Work {
-    height: 100vh;
+    /* height: 100vh; */
     background-color: #121212;
 }
 
 .SectionTitle{
     color: #FF4500;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 32px;
     padding-left: 150px;
     opacity: 30%;
     margin: 0;
 }
 
 .WorkAnimation {
-    width: 600px;
+    width: 30%;
+    max-width: 600px;
     position: relative;
     left: 65%;
-    top: 250px;
+    top: 25%;
 }
 
 .WorkExperiences{
@@ -24,11 +25,19 @@
 }
 
 .WorkExperience{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    /* grid-template-columns: 1fr 1fr; */
+    flex-direction: row;
     color: #FFF;
     opacity: 60%;
     width: 900px;
     margin: auto;
     font-size: 20px;
+}
+
+.line{
+    width: 2px;
+    height: 120px;
+    background-color: #FF4500;
+    margin: 50px;
 }
