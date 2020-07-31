@@ -6,6 +6,9 @@ import AboutAnimation from '../../Assets/SVG/Asset 12.svg'
 const About = () => {
     return (
         <section className = {style.About}>
+            <h2 className = {style.SectionTitle}>
+                About Me.
+            </h2>
             <div className = {style.AboutContent}>
                 <img src={TestImage} alt="" className = {style.AboutImage}/>
                 <div>

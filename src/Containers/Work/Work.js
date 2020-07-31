@@ -7,9 +7,9 @@ const Work = () => {
     return (
         <div className={style.Work}>
             <div className={style.WorkExperiences}>
-                <span>
-                    Work Experiences will appear here
-                </span>
+            <h2 className = {style.SectionTitle}>
+                Work Experience.
+            </h2>
 
                 <div className = {style.WorkExperience}>
                     <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tenetur magni aliquid! Recusandae quidem itaque dolorem facere magnam quas sit mollitia ut ad reprehenderit a sapiente obcaecati, suscipit accusamus nulla.</span>

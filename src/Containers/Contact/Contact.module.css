@@ -3,6 +3,15 @@
     background-color: #121212;
 }
 
+.SectionTitle{
+    color: #FF4500;
+    font-weight: 600;
+    font-size: 35px;
+    padding-left: 150px;
+    opacity: 30%;
+    margin: 0;
+}
+
 .ContactText{
     text-align: center;
     margin-bottom: 50px;

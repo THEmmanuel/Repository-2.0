@@ -6,6 +6,9 @@ import ContactAnimation from '../../Assets/SVG/Asset 10.svg'
 const Contact = (props) => {
     return (
         <section className={style.Contact}>
+            <h2 className = {style.SectionTitle}>
+                Contact Me.
+            </h2>
             <div className = {style.ContactContent}>
                 <span className={style.ContactText}>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae facere repellat sint possimus cum iure illo aspernatur atque eos ipsam odio repudiandae inventore, eius aperiam esse blanditiis consectetur, ex dignissimos.
