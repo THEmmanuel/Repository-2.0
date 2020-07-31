@@ -6,21 +6,27 @@ import WorkAnimation from '../../Assets/SVG/Asset 11.svg'
 const Work = () => {
     return (
         <div className={style.Work}>
-            <div className={style.WorkExperiences}>
-                <h2 className={style.SectionTitle}>
+         <h2 className={style.SectionTitle}>
                     Work Experience.
             </h2>
+            <div className={style.WorkExperiences}>
 
                 <div className={style.WorkExperience}>
                     <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tenetur magni aliquid! Recusandae quidem itaque dolorem facere magnam quas sit mollitia ut ad reprehenderit a sapiente obcaecati, suscipit accusamus nulla.</span>
 
+
+
                     <div className={style.WorkTimelineIndicator}>
                         <div className={style.TimeIndicator}></div>
                         <span className={style.line} ></span>
-                        <div className={style.TimeIndicator}></div>
+                        <div className={style.TimeIndicator02}>
+                            <div className={style.InnerCircle}></div>
+                        </div>
                     </div>
 
-                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id facere accusantium earum dicta voluptatibus inventore architecto quaerat tempore, quisquam fugit, omnis soluta dolore explicabo voluptatum illum magni qui. Accusantium, commodi.</span>
+
+
+                    <span className = {style.WorkExperience02}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id facere accusantium earum dicta voluptatibus inventore architecto quaerat tempore, quisquam fugit, omnis soluta dolore explicabo voluptatum illum magni qui. Accusantium, commodi.</span>
                 </div>
 
             </div>
