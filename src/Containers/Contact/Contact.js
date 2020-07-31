@@ -6,12 +6,18 @@ import ContactAnimation from '../../Assets/SVG/Asset 10.svg'
 const Contact = (props) => {
     return (
         <section className={style.Contact}>
-            <h2 className = {style.SectionTitle}>
+            <h2 className={style.SectionTitle}>
                 Contact Me.
             </h2>
-            <div className = {style.ContactContent}>
+            <div className={style.ContactContent}>
                 <span className={style.ContactText}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae facere repellat sint possimus cum iure illo aspernatur atque eos ipsam odio repudiandae inventore, eius aperiam esse blanditiis consectetur, ex dignissimos.
+                    Interested in hiring me? I'm sure I'll be a great addition to your team.
+                    <p/>
+                    Or you just want to talk about tech related stuff?
+                    Kindly reach out to me!
+                    <br/>
+                    I genuinely look forward to working and sharing ideas with people.
+                    Lets talk about your awesome project or ideas.
                 </span>
 
                 <div className={style.ContactButtons}>
@@ -21,7 +27,7 @@ const Contact = (props) => {
                 </div>
 
             </div>
-            <img src={ContactAnimation} alt="" className = {style.ContactAnimation}/>
+            <img src={ContactAnimation} alt="" className={style.ContactAnimation} />
         </section>
     )
 }
