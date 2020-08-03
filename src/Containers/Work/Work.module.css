@@ -1,5 +1,5 @@
 .Work {
-    height: 100vh;
+    /* height: 100vh; */
     background-color: #121212;
 }
 
@@ -21,7 +21,8 @@
 }
 
 .WorkExperiences{
-    
+    /* margin: 50px; */
+    padding: 110px;
 }
 
 .WorkExperience{
@@ -76,4 +77,16 @@
 
 .WorkExperience02{
     margin-top: 160px;
+}
+
+.WorkExperienceTitle{
+    color: #FFF;
+    opacity: 87%;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.WorkExperienceDescription{
+    opacity: 60%;
+    font-size: 19px;
 }

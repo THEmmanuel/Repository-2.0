@@ -9,7 +9,7 @@ import HomeAnimation from '../../Assets/SVG/Asset 10.svg'
 const Home = (props) => {
     return (
         <div className={style.Home}>
-                <NavBar/>
+            <NavBar />
             <div className={style.Introduction}>
                 <div>
 
@@ -26,7 +26,7 @@ const Home = (props) => {
                 </span>
 
                     <span className={style.LongDescription}>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa, suscipit accusamus ea eaque eos veniam ipsam quam deserunt laborum quibusdam unde modi optio dolorem ad a adipisci, distinctio est totam!
+                        I'm a creative and user-oriented Frontend/UI developer based in Nigeria. I believe in making web experiences that look amazing without compromising on functionality, usability and accessibility.
                 </span>
 
                 </div>
@@ -36,7 +36,7 @@ const Home = (props) => {
                     <SecondaryCTA text='Contact Me' />
                 </div>
             </div>
-            
+
             {/* <span className={style.TextBackground} >Emmanuel</span> */}
             <img src={HomeAnimation} alt="" className={style.HomeAnimation} />
         </div>

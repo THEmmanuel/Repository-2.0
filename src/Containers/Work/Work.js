@@ -6,13 +6,20 @@ import WorkAnimation from '../../Assets/SVG/Asset 11.svg'
 const Work = () => {
     return (
         <div className={style.Work}>
-         <h2 className={style.SectionTitle}>
-                    Work Experience.
+            <h2 className={style.SectionTitle}>
+                Work Experience.
             </h2>
             <div className={style.WorkExperiences}>
 
                 <div className={style.WorkExperience}>
-                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tenetur magni aliquid! Recusandae quidem itaque dolorem facere magnam quas sit mollitia ut ad reprehenderit a sapiente obcaecati, suscipit accusamus nulla.</span>
+                    <div>
+                        <span className={style.WorkExperienceTitle}>
+                            Freelance
+                        </span>
+                        <span className = {style.WorkExperienceDescription}>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tenetur magni aliquid! Recusandae quidem itaque dolorem facere magnam quas sit mollitia ut ad reprehenderit a sapiente obcaecati, suscipit accusamus nulla.
+                        </span>
+                    </div>
 
 
 
@@ -26,7 +33,15 @@ const Work = () => {
 
 
 
-                    <span className = {style.WorkExperience02}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id facere accusantium earum dicta voluptatibus inventore architecto quaerat tempore, quisquam fugit, omnis soluta dolore explicabo voluptatum illum magni qui. Accusantium, commodi.</span>
+                    <div className={style.WorkExperience02}>
+                        <span className={style.WorkExperienceTitle}>
+                            You decide :-)
+                        </span>
+
+                        <span className = {style.WorkExperienceDescription}>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id facere accusantium earum dicta voluptatibus inventore architecto quaerat tempore, quisquam fugit, omnis soluta dolore explicabo voluptatum illum magni qui. Accusantium, commodi.
+                        </span>
+                    </div>
                 </div>
 
             </div>

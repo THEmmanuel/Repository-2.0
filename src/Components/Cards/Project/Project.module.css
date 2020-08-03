@@ -1,6 +1,6 @@
 .Project {
     margin: 0 auto;
-    padding: 120px;
+    padding: 110px;
     display: grid;
     /* grid-gap: 20px; */
     grid-template-columns: 1fr 1fr;
@@ -10,6 +10,7 @@
     width: 720px;
     /* height: 300px; */
     margin: auto;
+    box-shadow: drop-shadow(10px 10px 10px #333333);
 }
 
 .ProjectDetails {
