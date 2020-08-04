@@ -14,7 +14,7 @@ const NavBar = () => {
                         <li>Home</li>
                         <li>Portfolio</li>
                         <li>Contact</li>
-                        <li>Resume</li>
+                        <li className = {style.Resume}>Resume</li>
                     </ul>
                 </div>
             </nav>

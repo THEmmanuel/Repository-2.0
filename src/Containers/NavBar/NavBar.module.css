@@ -1,7 +1,6 @@
 .NavBar {
     width: 100%;
     position: fixed;
-    /* height: 10vh; */
     z-index: 2;
     top: 0px;
     left: 0px;
@@ -28,4 +27,9 @@
     font-size: 15px;
     margin-top: 10px;
     list-style: none;
+}
+
+.Resume{
+    color: white;
+    font-weight: 800;
 }
