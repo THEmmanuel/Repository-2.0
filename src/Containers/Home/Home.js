@@ -7,6 +7,13 @@ import SecondaryCTA from '../../Components/Buttons/SecondaryCTA/SecondaryCTA';
 import HomeAnimation from '../../Assets/SVG/Asset 10.svg'
 
 const Home = (props) => {
+
+    // const Words = ['amazing', 'awesome', 'stunning', 'beautiful', 'great', 'intuitive']
+    
+    // const WordSelectHandler = () => {
+
+    // }
+
     return (
         <div className={style.Home}>
             <NavBar />
@@ -26,7 +33,7 @@ const Home = (props) => {
                 </span>
 
                     <span className={style.LongDescription}>
-                        I'm a creative and user-oriented Frontend/UI developer based in Nigeria. I believe in making web experiences that look amazing without compromising on functionality, usability and accessibility.
+                        I'm a creative and design-oriented Frontend/UI developer. I believe in making web experiences that look amazing without compromising on functionality, usability and accessibility.
                 </span>
 
                 </div>
