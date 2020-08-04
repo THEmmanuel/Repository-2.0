@@ -16,8 +16,10 @@ const Work = () => {
                         <span className={style.WorkExperienceTitle}>
                             Freelance
                         </span>
-                        <span className = {style.WorkExperienceDescription}>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tenetur magni aliquid! Recusandae quidem itaque dolorem facere magnam quas sit mollitia ut ad reprehenderit a sapiente obcaecati, suscipit accusamus nulla.
+                        <span className={style.WorkExperienceDescription}>
+                            I built and developed websites using the latest, appropriate and/or specified technologies while adhering to specifications of the high fidelity prototypes I designed or received from my clients from Fiverr and referrals from friends.
+                            <br />
+                            More importantly I enhanced my social skills by developing proper communication, comprehension and conflict resolution skills.
                         </span>
                     </div>
 
@@ -38,8 +40,11 @@ const Work = () => {
                             You decide :-)
                         </span>
 
-                        <span className = {style.WorkExperienceDescription}>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id facere accusantium earum dicta voluptatibus inventore architecto quaerat tempore, quisquam fugit, omnis soluta dolore explicabo voluptatum illum magni qui. Accusantium, commodi.
+                        <span className={style.WorkExperienceDescription}>
+                            I'm currently searching for my first gig as Frontend/UI developer. 
+                            <br/>
+                            I'm certain I'll be a great addition to your team.
+                            You can contact me or view my resume first.
                         </span>
                     </div>
                 </div>

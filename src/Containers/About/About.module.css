@@ -1,5 +1,5 @@
 .About {
-    height: 100vh;
+    /* height: 100vh; */
     background-color: #1F1F1F;
 }
 
@@ -39,7 +39,7 @@
 .AboutAnimation{
     width: 600px;
     left: 10%;
-    bottom: 250px;
+    /* bottom: 250px; */
     position: relative;
 }
 

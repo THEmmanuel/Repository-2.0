@@ -46,7 +46,7 @@
 
 .line{
     width: 1px;
-    height: 120px;
+    height: 220px;
     background-color: #FF4500;
     margin: 15px auto;
     /* margin: 50px; */
@@ -76,7 +76,7 @@
 }
 
 .WorkExperience02{
-    margin-top: 160px;
+    margin-top: 240px;
 }
 
 .WorkExperienceTitle{
@@ -87,6 +87,7 @@
 }
 
 .WorkExperienceDescription{
+    /* width: 200px; */
     opacity: 60%;
     font-size: 19px;
 }
