@@ -1,22 +1,23 @@
 .ContactButtons{
     display: flex;
     flex-direction: row;
+    margin: auto;
 }
 
 .ContactButton{
     /* display: grid;
     grid-row: auto; */
-    border-radius: 1px;
+    border-radius: 3px;
     background-color: transparent;
     height: 45px;
     width: 500px;
-    border: 2px solid #FF9A75;
+    border: 1px solid #FF4500;
     opacity: 60%;
     margin: auto;
     transition: all 0.8s ease-out;
     font-size: 20px;
-    font-weight: 600;
-    color: #FF9A75;
+    font-weight: 500;
+    color:  #FF4500;
 }
 
 
@@ -24,7 +25,7 @@
 .ContactButton:hover{
     border: none;
     border-radius: 5px 25px 5px 5px;
-    background-color: #FF9A75;
+    background-color: #FF4500 ;
     color: #FFF;
     
 }
@@ -32,4 +33,20 @@
 .CopyButton{
     float: right;
     margin-left: 10px;
+    border: 1px solid #FF9A75;
+    background-color: transparent;
+    color: #FF9A75;
+    opacity: 87%;
+    transition: all 0.8s ease-out;
 }
+
+.CopyButton:hover{
+    color: #000;
+    background-color: #FFF;
+    border: none;
+}
+
+/* .CopyButton:active{
+    color: #FF4500;
+    background-color: green;
+} */
