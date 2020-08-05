@@ -1,5 +1,12 @@
+.ContactButtons{
+    display: flex;
+    flex-direction: row;
+}
+
 .ContactButton{
-    border-radius: 2px;
+    /* display: grid;
+    grid-row: auto; */
+    border-radius: 1px;
     background-color: transparent;
     height: 45px;
     width: 500px;
@@ -7,10 +14,22 @@
     opacity: 60%;
     margin: auto;
     transition: all 0.8s ease-out;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FF9A75;
 }
+
+
 
 .ContactButton:hover{
     border: none;
     border-radius: 5px 25px 5px 5px;
     background-color: #FF9A75;
+    color: #FFF;
+    
+}
+
+.CopyButton{
+    float: right;
+    margin-left: 10px;
 }

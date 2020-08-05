@@ -43,7 +43,7 @@ const Work = () => {
                         <span className={style.WorkExperienceDescription}>
                             I'm currently searching for my first gig as Frontend/UI developer. 
                             <br/>
-                            I'm certain I'll be a great addition to your team.
+                        I'm certain I'll be a great addition to your team.
                             You can contact me or view my resume first.
                         </span>
                     </div>

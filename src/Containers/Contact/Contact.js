@@ -21,9 +21,9 @@ const Contact = (props) => {
                 </span>
 
                 <div className={style.ContactButtons}>
-                    <ContactButton />
-                    <ContactButton />
-                    <ContactButton />
+                    <ContactButton ButtonText = 'Emmayodayo@gmail.com' />
+                    <ContactButton ButtonText = '08136934963'/>
+                    {/* <ContactButton ButtonText = /> */}
                 </div>
 
             </div>

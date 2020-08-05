@@ -6,11 +6,11 @@ span {
 .Home {
     background-color: #121212;
     height: 100vh;
+    max-height: 1920px;
 }
 
 .Introduction {
     width : 33%;
-    /* margin: 150px; */
     position: relative;
     top: 250px;
     left: 150px;
@@ -21,7 +21,6 @@ span {
     font-weight: 600;
     color: #FFF;
     opacity: 38%;
-    /* margin: -20px 0; */
 }
 
 .Name {
