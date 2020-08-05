@@ -41,9 +41,10 @@
 }
 
 .CopyButton:hover{
-    color: #000;
-    background-color: #FFF;
+    color: #FFF;
+    background-color: #FF9A75;
     border: none;
+    opacity: 87%;
 }
 
 /* .CopyButton:active{

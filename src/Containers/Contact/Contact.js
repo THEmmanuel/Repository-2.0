@@ -27,7 +27,7 @@ const Contact = (props) => {
                 </div>
 
             </div>
-            {/* <img src={ContactAnimation} alt="" className={style.ContactAnimation} /> */}
+            <img src={ContactAnimation} alt="" className={style.ContactAnimation} />
         </section>
     )
 }
