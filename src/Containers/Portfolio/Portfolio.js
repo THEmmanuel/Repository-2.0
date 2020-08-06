@@ -14,6 +14,8 @@ const Portfolio = () => {
             <div className={style.Projects}>
                 <Project
                     ProjectImage={TestImage}
+                    ProjectName = 'Github User Search'
+                    ProjectDescription = ''
                 />
 
                 <Project

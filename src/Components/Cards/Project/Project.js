@@ -10,8 +10,8 @@ const Project = (props) => {
             <img src={props.ProjectImage} alt="" className = {style.ProjectImage}/>
 
             <div className={style.ProjectDetails}>
-                <span className={style.ProjectName}>Project X</span>
-                <span className={style.ProjectDescription}> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, aliquam quia? Deserunt corporis deleniti maiores laboriosam similique pariatur sunt voluptatum corrupti omnis commodi accusamus repellendus consequatur ut sed, voluptatem tenetur. </span>
+                <span className={style.ProjectName}>{props.ProjectName}</span>
+                <span className={style.ProjectDescription}>{props.ProjectDescription}</span>
                 <div className = {style.ProjectCTAs}>
                     <PrimaryCTA text = 'Visit Site'/>
                     <SecondaryCTA text = 'View Code'/>
