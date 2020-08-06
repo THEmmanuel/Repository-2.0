@@ -26,11 +26,16 @@
     font-weight: 600;
 }
 
-.ProjectDescription {
+.ProjectDescription, .ProjectTechnologies{
     color: #FFF;
     opacity: 60%;
     text-align: left;
     font-size: 18px;
+}
+
+.ProjectTechnologies{
+    font-weight: 500;
+    
 }
 
 .ProjectCTAs{

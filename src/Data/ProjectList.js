@@ -23,7 +23,7 @@ const ProjectList = [{
         ProjectImage: ProjectImage,
         ProjectName: 'Quick Credit Frontend',
         ProjectDescription: `Quick Credit was the project I was meant to build during Andela's 2 week bootcamp and final stage of the extremely competitive selection process for Cycle 44 of their fellowship.
-        I had the frontend rebuilt after failing to make the final cut. Attendng the bootcamp really gave me a proper insight into the skills I needed to build to become a better developer.`,
+        I had the frontend rebuilt after failing to make the final cut. Attendng the bootcamp really gave me a proper insight into the skills I needed to build to become a "world class" developer.`,
 
         ProjectTechnologies: `Main technologies used: HTML5, CSS3, JavaScript(ES6+) and git.`
     },
