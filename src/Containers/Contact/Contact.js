@@ -22,7 +22,7 @@ const Contact = (props) => {
 
                 <div className={style.ContactButtons}>
                     <ContactButton ButtonText = 'Emmayodayo@gmail.com' />
-                    <ContactButton ButtonText = '08136934963'/>
+                    <ContactButton ButtonText = '+2348136934963'/>
                     {/* <ContactButton ButtonText = /> */}
                 </div>
 
