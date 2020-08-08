@@ -3,9 +3,11 @@ import style from './PrimaryCTA.module.css'
 
 const PrimaryCTA = (props) => {
     return (
-        <button className = {style.PrimaryCTA}>
+        <a href={props.link}>
+            <button className = {style.PrimaryCTA}>
             {props.text}
         </button>
+        </a>
     )
 }
 

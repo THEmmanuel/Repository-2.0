@@ -3,6 +3,7 @@ import style from './Home.module.css';
 import NavBar from '.././NavBar/NavBar'
 import PrimaryCTA from '../../Components/Buttons/PrimaryCTA/PrimaryCTA';
 import SecondaryCTA from '../../Components/Buttons/SecondaryCTA/SecondaryCTA';
+// import Portfolio from '../Portfolio/Portfolio';
 
 import HomeAnimation from '../../Assets/SVG/Asset 10.svg'
 
@@ -39,7 +40,7 @@ const Home = (props) => {
                 </div>
 
                 <div className={style.Buttons}>
-                    <PrimaryCTA text='My Work' />
+                    <PrimaryCTA text='My Work' link = 'stuff'/>
                     <SecondaryCTA text='Contact Me' />
                 </div>
             </div>

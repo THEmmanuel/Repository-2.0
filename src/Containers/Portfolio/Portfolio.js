@@ -22,7 +22,7 @@ const Portfolio = () => {
                      />)}
             </div>
 
-            <img src={PortfolioAnimation} className={style.PortfolioAnimation} alt="" />
+            {/* <img src={PortfolioAnimation} className={style.PortfolioAnimation} alt="" /> */}
 
         </section>
 
