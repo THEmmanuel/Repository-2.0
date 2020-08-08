@@ -47,6 +47,10 @@
     opacity: 87%;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* .CopyButton:active{
     color: #FF4500;
     background-color: green;

@@ -12,22 +12,27 @@ const Contact = (props) => {
             <div className={style.ContactContent}>
                 <span className={style.ContactText}>
                     Interested in hiring me? I'm sure I'll be a great addition to your team.
-                    <p/>
+                    <p />
                     Or you just want to talk about tech related stuff?
                     Kindly reach out to me!
-                    <br/>
+                    <br />
                     I genuinely look forward to working and sharing ideas with people.
                     Lets talk about your awesome project or ideas.
                 </span>
 
                 <div className={style.ContactButtons}>
-                    <ContactButton ButtonText = 'Emmayodayo@gmail.com' />
-                    <ContactButton ButtonText = '+2348136934963'/>
+                    <a href="mailto:emmayodayo@gmail.com">
+                        <ContactButton ButtonText='Emmayodayo@gmail.com' />
+                    </a>
+
+                    <a href="tel:+2348136934963">
+                        <ContactButton ButtonText='+2348136934963' />
+                    </a>
                     {/* <ContactButton ButtonText = /> */}
                 </div>
 
             </div>
-            <img src={ContactAnimation} alt="" className={style.ContactAnimation} />
+            {/* <img src={ContactAnimation} alt="" className={style.ContactAnimation} /> */}
         </section>
     )
 }
