@@ -19,6 +19,7 @@ const Portfolio = () => {
                         ProjectImage = {project.ProjectImage}
                         ProjectDescription = {project.ProjectDescription}
                         ProjectTechnologies = {project.ProjectTechnologies}
+                        ProjectLiveLink = {project.ProjectLiveLink}
                      />)}
             </div>
 
