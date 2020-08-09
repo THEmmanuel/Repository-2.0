@@ -1,6 +1,10 @@
 .Work {
     /* height: 100vh; */
     background-color: #121212;
+    background-image: url(../../Assets//SVG//Asset\ 11.svg);
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: left 80%;
 }
 
 .SectionTitle{
@@ -12,12 +16,20 @@
     margin: 0;
 }
 
+/* 
 .WorkAnimation {
     width: 30%;
     max-width: 600px;
     position: relative;
     left: 65%;
     /* top: 1; */
+/*  */
+
+a{
+    color: #FFF;
+    font-weight: 800;
+    opacity: 100%;
+    /* text-decoration: underline; */
 }
 
 .WorkExperiences{

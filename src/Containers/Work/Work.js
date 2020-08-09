@@ -44,13 +44,13 @@ const Work = () => {
                             I'm currently searching for my first gig as Frontend/UI developer. 
                             <br/>
                         I'm certain I'll be a great addition to your team.
-                            You can contact me or view my resume first.
+                            You can <a href = 'contact link'>contact me</a> or <a href = 'resumelink'>view my resume</a> first.
                         </span>
                     </div>
                 </div>
 
             </div>
-            <img src={WorkAnimation} alt="" className={style.WorkAnimation} />
+            {/* <img src={WorkAnimation} alt="" className={style.WorkAnimation} /> */}
         </div>
     )
 }

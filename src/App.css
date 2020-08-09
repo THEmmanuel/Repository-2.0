@@ -3,7 +3,11 @@
 }
 
 .App.span {
-  color: yellow;
+  /* color: yellow; */
+}
+
+a{
+  text-decoration: none;
 }
 
 /* .App-logo {

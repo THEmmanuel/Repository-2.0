@@ -14,6 +14,7 @@ const Home = (props) => {
     // const WordSelectHandler = () => {
 
     // }
+    
 
     return (
         <div className={style.Home}>
@@ -46,7 +47,7 @@ const Home = (props) => {
             </div>
 
             {/* <span className={style.TextBackground} >Emmanuel</span> */}
-            <img src={HomeAnimation} alt="" className={style.HomeAnimation} />
+            {/* <img src={HomeAnimation} alt="" className={style.HomeAnimation} /> */}
         </div>
     )
 }

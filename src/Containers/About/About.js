@@ -23,7 +23,7 @@ const About = () => {
                     </span>
                 </div>
             </div>
-        <img src={AboutAnimation} alt="" className={style.AboutAnimation} />
+        {/* <img src={AboutAnimation} alt="" className={style.AboutAnimation} /> */}
         </section>
     )
 }

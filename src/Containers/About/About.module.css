@@ -1,6 +1,10 @@
 .About {
     /* height: 100vh; */
     background-color: #1F1F1F;
+    background-image: url('../../Assets//SVG//Asset\ 12.svg');
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position: left 70%;
 }
 
 .SectionTitle{
@@ -16,6 +20,7 @@
     width: 500px;
     padding: 50px;
     margin: auto;
+    padding-bottom: 400px;
 }
 
 .AboutImage{
