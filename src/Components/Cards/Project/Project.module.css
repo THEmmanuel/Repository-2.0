@@ -2,23 +2,26 @@
     margin: 0 auto;
     padding: 110px 0;
     display: grid;
+    max-width: 1800px;
+    /* width: 800px; */
     /* grid-gap: 20px; */
     grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
     grid-template-rows: 1fr;
 }
 
 .ProjectImage {
-    width: 60%;
+    width: 50%;
     max-width: 720px;
     /* height: 300px; */
     margin: auto;
+    margin-bottom: 30px;
     box-shadow: drop-shadow(10px 10px 10px #333333);
 }
 
 .ProjectDetails {
     width: 60%;
     max-width: 512px;
-    margin: 0 auto;
+    margin: 15px auto;
 
 }
 
