@@ -17,26 +17,26 @@ const Home = (props) => {
     
 
     return (
-        <div className={style.Home}>
+        <section className={style.Home}>
             {/* <NavBar /> */}
-            <div className={style.Introduction}>
+            <section className={style.Introduction}>
                 <div>
 
-                    <span className={style.NamePre}>
+                    <article className={style.NamePre}>
                         Hi there, I'm
-                </span>
+                </article>
 
-                    <span className={style.Name}>
+                    <article className={style.Name}>
                         Emmanuel.
-                </span>
+                </article>
 
-                    <span className={style.ShortDescription}>
+                    <article className={style.ShortDescription}>
                         I craft amazing web experiences.
-                </span>
+                </article>
 
-                    <span className={style.LongDescription}>
+                    <article className={style.LongDescription}>
                         I'm a creative and design-oriented Frontend/UI developer. I believe in making web experiences that look amazing without compromising on functionality, usability and accessibility.
-                </span>
+                    </article>
 
                 </div>
 
@@ -44,11 +44,11 @@ const Home = (props) => {
                     <PrimaryCTA text='My Work' link = 'stuff'/>
                     <SecondaryCTA text='Contact Me' />
                 </div>
-            </div>
+            </section>
 
             {/* <span className={style.TextBackground} >Emmanuel</span> */}
             {/* <img src={HomeAnimation} alt="" className={style.HomeAnimation} /> */}
-        </div>
+        </section>
     )
 }
 

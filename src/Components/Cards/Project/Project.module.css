@@ -3,10 +3,10 @@
     padding: 110px 0;
     display: grid;
     /* width: 50%; */
-    max-width: 1800px;
+    max-width: 1300px;
     /* width: 800px; */
     /* grid-gap: 20px; */
-    grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
     grid-template-rows: 1fr;
 }
 
@@ -16,7 +16,7 @@
     /* height: 300px; */
     margin: auto;
     margin-bottom: 30px;
-    box-shadow: drop-shadow(10px 10px 10px #333333);
+    /* box-shadow: drop-shadow(10px 10px 10px #333333); */
 }
 
 .ProjectDetails {
@@ -51,4 +51,61 @@
 .ProjectCTAs{
     outline: none;
     /* width: 100px; */
+}
+
+
+@media (max-width: 1280px) {
+    .Project {
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        padding: 70px 0;
+    }
+
+    .ProjectImage{
+        width: 70%;
+        margin: auto;
+    }
+
+    .ProjectDetails{
+        width: 80%;
+    }
+
+    .ProjectName{
+        font-size: 28px;
+    }
+
+
+}
+
+@media (max-width: 800px) {
+    .Project{
+        grid-template-columns:repeat(auto-fill, minmax(350px, 1fr));
+        padding: 50px 0;
+    }
+
+    .ProjectName{
+        font-size: 22px;
+    }
+
+    .ProjectImage{
+        /* width: ; */
+    }
+
+    .ProjectDetails{
+        width: 90%;
+    }
+
+    .ProjectDescription, .ProjectTechnologies{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 720px){
+    .ProjectDetails{
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .ProjectDescription, .ProjectTechnologies{
+        text-align: center;
+    }
 }
