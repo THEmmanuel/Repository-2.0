@@ -43,13 +43,13 @@ a{
     flex-direction: row;
     color: #FFF;
     opacity: 60%;
-    width: 900px;
+    /* width: 900px; */
     margin: auto;
     font-size: 20px;
 }
 
 .WorkTimelineIndicator{
-    margin: 0 50px;
+    /* margin: 0 50px; */
     display: flex;
     flex-direction: column;
     /* width: 50px; */
@@ -99,7 +99,7 @@ a{
 }
 
 .WorkExperienceDescription{
-    /* width: 200px; */
+    width: 100px;
     opacity: 60%;
     font-size: 19px;
 }

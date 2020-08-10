@@ -3,11 +3,11 @@ import style from './Footer.module.css'
 
 const Footer = () => {
     return (
-        <div className = {style.Footer}>
+        <footer className = {style.Footer}>
             <span className = {style.FooterText}>
                 Made with &hearts; by Emmanuel Ayodele
             </span>
-        </div>
+        </footer>
     )
 }
 

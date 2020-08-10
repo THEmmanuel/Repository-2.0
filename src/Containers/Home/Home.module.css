@@ -15,7 +15,7 @@ span {
 
 .Introduction {
     width : 33%;
-    position: relative;
+    position: absolute;
     top: 250px;
     left: 150px;
 }

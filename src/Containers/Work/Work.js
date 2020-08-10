@@ -5,7 +5,7 @@ import WorkAnimation from '../../Assets/SVG/Asset 11.svg'
 
 const Work = () => {
     return (
-        <div className={style.Work}>
+        <section className={style.Work}>
             <h2 className={style.SectionTitle}>
                 Work Experience.
             </h2>
@@ -51,7 +51,7 @@ const Work = () => {
 
             </div>
             {/* <img src={WorkAnimation} alt="" className={style.WorkAnimation} /> */}
-        </div>
+        </section>
     )
 }
 

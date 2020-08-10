@@ -29,13 +29,15 @@
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 30px;
     margin: auto;
+    max-width: 600px;
     /* background-color: yellow; */
 }
 
 .ContactContent{
     padding: 40px;
     margin: auto;
-    width: 500px;
+    max-width: 500px;
+    width: 50%;
 }
 
 .ContactAnimation{
