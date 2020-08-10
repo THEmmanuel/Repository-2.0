@@ -5,7 +5,7 @@ span {
 
 .Home {
     background-color: #121212;
-    height: 100vh;
+    height: 90vh;
     max-height: 1920px;
     background-image: url('../../Assets//SVG//Asset\ 10.svg');
     background-repeat: no-repeat;
@@ -14,10 +14,10 @@ span {
 }
 
 .Introduction {
-    width : 33%;
+    width : 30%;
     position: absolute;
-    top: 250px;
-    left: 150px;
+    top: 30%;
+    left: 8%;
 }
 
 .NamePre {
@@ -65,4 +65,80 @@ span {
     color: #E5E1E0;
     position: relative;
     top: 50%;
+}
+
+@media(max-height:1000px){
+    .Home{
+        /* height: 75vh; */
+    }
+}
+
+@media(max-width:1280px){
+    .Home{
+        background-size: 40%;
+    }
+
+    .Introduction{
+        width: 40%;
+        /* margin-bottom: 70px; */
+    }
+
+    .NamePre{
+        font-size: 15px;
+    }
+
+    .Name{
+        font-size: 50px;
+    }
+
+    .ShortDescription{
+        font-size: 25px;
+    }
+
+    .LongDescription{
+        font-size: 18px;
+        width: 90%;
+        /* margin: 70px; */
+    }
+
+    @media(max-width:720px){
+        .Home{
+            background-image: url(../../Assets/SVG//Asset\ 10-nobg.svg);
+            background-size: 60%;
+            background-position: right 80% bottom 20%;
+        }
+
+        /* .Introduction{
+            width: 60%;
+        } */
+    }
+
+    @media(max-width:480px){
+        .Home{
+            /* background-image: url(../../Assets/SVG//Asset\ 10-nobg.svg); */
+            background-position:  right 95%;
+            background-size: 85%;
+        }
+
+        .Introduction{
+            width: 80%;
+            top: 25%;
+        }
+
+        .NamePre{
+            font-size: 10px;
+        }
+
+        .Name{
+            font-size: 32px;
+        }
+
+        .ShortDescription{
+            font-size: 18px;
+        }
+
+        .LongDescription{
+            font-size: 14px;
+        }
+    }
 }

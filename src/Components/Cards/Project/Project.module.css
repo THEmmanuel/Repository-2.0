@@ -11,7 +11,7 @@
 }
 
 .ProjectImage {
-    width: 60%;
+    width: 80%;
     max-width: 720px;
     /* height: 300px; */
     margin: auto;
@@ -20,7 +20,7 @@
 }
 
 .ProjectDetails {
-    width: 60%;
+    width: 80%;
     max-width: 512px;
     margin: 15px auto;
 
@@ -87,19 +87,22 @@
     }
 
     .ProjectImage{
-        /* width: ; */
+        width: 50%;
+        margin: auto;
     }
 
     .ProjectDetails{
         width: 90%;
+        text-align: center;
     }
 
     .ProjectDescription, .ProjectTechnologies{
         font-size: 15px;
+        text-align: center;
     }
 }
 
-@media (max-width: 720px){
+@media (max-width: 480px){
     .ProjectDetails{
         text-align: center;
         margin-top: 30px;
@@ -107,5 +110,10 @@
 
     .ProjectDescription, .ProjectTechnologies{
         text-align: center;
+        font-size: 14px;
+    }
+
+    .ProjectName{
+        font-size: 20px;
     }
 }
