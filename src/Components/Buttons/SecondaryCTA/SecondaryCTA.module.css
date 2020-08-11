@@ -16,3 +16,20 @@
     color: #FFF;
     border-radius: 5px 25px 5px 5px;
 }
+
+
+@media(max-width: 1280px){
+    .SecondaryCTA{
+        width: 90px;
+        height: 30px;
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 480px){
+    .SecondaryCTA{
+        width: 75px;
+        height: 30px;
+        font-size: 11px;
+    }
+}
