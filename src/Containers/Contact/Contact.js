@@ -21,11 +21,11 @@ const Contact = (props) => {
 
                 <div className={style.ContactButtons}>
                     <a href="mailto:emmayodayo@gmail.com">
-                        <ContactButton ButtonText='' />
+                        <ContactButton ButtonText='emmayodayo@gmail.com' />
                     </a>
 
                     <a href="tel:+2348136934963">
-                        <ContactButton ButtonText='' />
+                        <ContactButton ButtonText='+2348136934963' />
                     </a>
                     {/* <ContactButton ButtonText = /> */}
                 </div>
@@ -35,8 +35,5 @@ const Contact = (props) => {
         </section>
     )
 }
-
-//Emmayodayo@gmail.com
-//+2348136934963
 
 export default Contact

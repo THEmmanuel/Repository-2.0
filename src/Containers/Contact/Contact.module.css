@@ -26,11 +26,11 @@
 
 .ContactButtons{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-gap: 30px;
     margin: auto;
     max-width: 600px;
-    width: 100px;
+    /* width: 100px; */
     /* background-color: yellow; */
 }
 
@@ -68,7 +68,11 @@
 
     .ContactContent{
         width: 70%;
-        padding-bottom: 200px;
+        padding-bottom: 300px;
+    }
+
+    .ContactButtons{
+        grid-gap: 20px;
     }
 }
 
@@ -82,4 +86,9 @@
     .ContactText{
         font-size: 14px;
     }
+
+    .ContactButtons{
+        grid-gap: 10px;
+    }
+
 }

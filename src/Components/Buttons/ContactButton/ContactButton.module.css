@@ -51,7 +51,20 @@ a{
     text-decoration: none;
 }
 
-/* .CopyButton:active{
-    color: #FF4500;
-    background-color: green;
-} */
+@media(max-width:720px){
+    .ContactButtons{
+        width: 80%;
+    }
+
+    .ContactButton{
+        /* width: 200px; */
+        height:30px;
+        font-size: 15px;
+    }
+}
+
+@media(max-width:480px){
+    .ContactButton{
+        font-size: 12px;
+    }
+}
