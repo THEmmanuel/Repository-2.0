@@ -21,7 +21,7 @@
     max-width: 500px;
     padding: 50px;
     margin: auto;
-    padding-bottom: 400px;
+    padding-bottom: 300px;
 }
 
 .AboutImage{
@@ -49,10 +49,57 @@
     position: relative;
 }
 
+@media(max-width:1280px){
+    .About{
+        background-size: 50%;
+        background-position: left 90% bottom 50px;
+    }
+
+    .AboutDescription{
+        font-size: 18px;
+    }
+
+    .AboutImage{
+        width: 150px;
+        height: 150px;
+    }
+}
+
 @media(max-width:720px){
     .SectionTitle{
         font-size: 20px;
         margin: auto;
         padding-left: 20px;
+    }
+
+    .AboutImage{
+        width: 120px;
+        height: 120px;
+    }
+
+    .AboutContent{
+        width: 70%;
+    }
+}
+
+@media(max-width:480px){
+
+    .AboutContent{
+        width: 80%;
+        padding: 20px;
+        padding-bottom: 250px;
+    }
+    .AboutDescription{
+        font-size: 14px;
+    }
+
+    .AboutImage{
+        width: 100px;
+        height: 100px;
+    }
+
+    .About{
+        background-size: 80%;
+        background-position: left 50% bottom 10%;
     }
 }
