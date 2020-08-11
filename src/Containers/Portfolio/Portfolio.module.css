@@ -23,3 +23,18 @@
     opacity: 30%;
     margin: 0;
 }
+
+
+@media(max-width:720px){
+
+    .Portfolio{
+        padding-bottom: 100px;
+        background-size: 65%;
+    }
+
+    .SectionTitle{
+        font-size: 20px;
+        margin: auto;
+        padding-left: 20px;
+    }
+}

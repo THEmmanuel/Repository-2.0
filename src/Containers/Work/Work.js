@@ -12,7 +12,7 @@ const Work = () => {
             <div className={style.WorkExperiences}>
 
                 <div className={style.WorkExperience}>
-                    <div>
+                    <div className = {style.WorkExperienceContainer}>
                         <span className={style.WorkExperienceTitle}>
                             Freelance
                         </span>
@@ -28,14 +28,14 @@ const Work = () => {
                     <div className={style.WorkTimelineIndicator}>
                         <div className={style.TimeIndicator}></div>
                         <span className={style.line} ></span>
-                        <div className={style.TimeIndicator02}>
+                        <div className={`${style.TimeIndicator} ${style.Filled} `}>
                             <div className={style.InnerCircle}></div>
                         </div>
                     </div>
 
 
 
-                    <div className={style.WorkExperience02}>
+                    <div className={`${style.WorkExperience02} ${style.WorkExperienceContainer}`}>
                         <span className={style.WorkExperienceTitle}>
                             You decide :-)
                         </span>

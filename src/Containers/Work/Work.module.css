@@ -1,5 +1,5 @@
 .Work {
-    /* height: 100vh; */
+    /* height: 85vh; */
     background-color: #121212;
     background-image: url(../../Assets//SVG//Asset\ 11-nobg.svg);
     background-repeat: no-repeat;
@@ -33,8 +33,9 @@ a{
 }
 
 .WorkExperiences{
-    /* margin: 50px; */
-    padding: 110px;
+    margin: auto;
+    padding: 50px 50px 500px 50px;
+    width: 80%;
 }
 
 .WorkExperience{
@@ -45,7 +46,8 @@ a{
     opacity: 60%;
     /* width: 900px; */
     margin: auto;
-    font-size: 20px;
+    font-size: 18px;
+    width: 95%;
 }
 
 .WorkTimelineIndicator{
@@ -61,6 +63,7 @@ a{
     height: 220px;
     background-color: #FF4500;
     margin: 15px auto;
+    /* padding: 20px; */
     /* margin: 50px; */
     /* float: right; */
 }
@@ -76,7 +79,7 @@ a{
     right: 50%; */
 }
 
-.TimeIndicator02 {
+.Filled {
     width: 15px;
     height: 15px;
     border: none;
@@ -88,10 +91,18 @@ a{
 }
 
 .WorkExperience02{
-    margin-top: 240px;
+    padding-top: 200px;
+}
+
+.WorkExperienceContainer{
+    width: 45%;
+    margin: 10px auto auto auto;
+    /* align-content: center; */
 }
 
 .WorkExperienceTitle{
+    margin: auto;
+    display: block;
     color: #FFF;
     opacity: 87%;
     font-size: 35px;
@@ -99,7 +110,97 @@ a{
 }
 
 .WorkExperienceDescription{
-    width: 100px;
+    /* width: 50%; */
+    margin: auto;
     opacity: 60%;
     font-size: 19px;
+}
+
+
+@media(max-width:1280px){
+
+    .Work{
+        /* height: 60%; */
+        background-size: 35%;
+        background-position: left 95%;
+    }
+
+    .WorkExperienceTitle{
+        font-size: 28px;
+    }
+
+    .WorkExperiences{
+        padding: 50px 50px 350px 50px;
+    }
+
+    .WorkExperienceDescription{
+        font-size: 17px;
+    }
+
+    .line{
+        height: 180px;
+    }
+
+}
+
+@media(max-width:720px){
+    .SectionTitle{
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    .WorkExperiences{
+        width: 90%;
+        padding-right: 0;
+        margin: auto;
+        padding: 30px 0 200px 0;
+    }
+
+    .WorkExperience{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .TimeIndicator{
+        display: none;
+    }
+
+    .WorkExperience02{
+        padding: 0;
+    }
+
+    .WorkExperienceContainer{
+        text-align: center;
+        width: 90%;
+    }
+
+    .line{
+        height: 100px;
+        margin: 10px auto;
+    }
+
+    .WorkExperienceTitle{
+        font-size: 20px;
+    }
+}
+
+@media(max-width:480px){
+    
+    .Work{
+        background-size: 80%;
+        background-position: bottom 10% left 50%;
+    }
+
+    .WorkExperienceDescription{
+        font-size: 14px;
+    }
+
+    .line{
+        height: 50px;
+    }
+
+    .WorkExperiences{
+        padding-bottom: 320px;
+    }
 }
