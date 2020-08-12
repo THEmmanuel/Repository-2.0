@@ -116,7 +116,7 @@ span {
     @media(max-width:480px){
         .Home{
             /* background-image: url(../../Assets/SVG//Asset\ 10-nobg.svg); */
-            background-position:  right 95%;
+            background-position:  left 100% bottom 2%;
             background-size: 85%;
         }
 
