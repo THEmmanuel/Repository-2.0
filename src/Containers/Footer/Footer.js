@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer className = {style.Footer}>
             <span className = {style.FooterText}>
-                Made with &hearts; by Emmanuel Ayodele
+                Designed and made with &hearts; by Emmanuel Ayodele
             </span>
         </footer>
     )

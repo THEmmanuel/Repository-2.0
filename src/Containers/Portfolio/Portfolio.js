@@ -11,7 +11,7 @@ const Portfolio = () => {
         <section className={style.Portfolio}>
             <h2 className={style.SectionTitle}>
                 Featured Projects.
-            </h2>
+        </h2>
             <div className={style.Projects}>
                 {ProjectList.map((project) =>
                     <Project
@@ -20,6 +20,7 @@ const Portfolio = () => {
                         ProjectDescription = {project.ProjectDescription}
                         ProjectTechnologies = {project.ProjectTechnologies}
                         ProjectLiveLink = {project.ProjectLiveLink}
+                        key = {project.ProjectID}
                      />)}
             </div>
 

@@ -35,7 +35,7 @@ const Home = (props) => {
                 </article>
 
                     <article className={style.LongDescription}>
-                        I'm a creative and design-oriented Frontend/UI developer. I believe in making web experiences that look amazing without compromising on functionality, usability and accessibility.
+                        I'm a creative and design-oriented Frontend/UI developer currently based in Ngeria. I believe in making web experiences that look amazing without compromising on functionality, usability and accessibility.
                     </article>
 
                 </div>

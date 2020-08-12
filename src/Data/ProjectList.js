@@ -12,7 +12,8 @@ const ProjectList = [{
 
         ProjectTechnologies: `Main technologies used: React.js, CSS3, JavaScript(ES6+), Axios, React Router, Git and the Github API.`,
 
-        ProjectLiveLink: 'https://themmanuel.github.io/Github-Search/'
+        ProjectLiveLink: 'https://themmanuel.github.io/Github-Search/',
+        ProjectID: 'Project-01'
     },
 
 
@@ -24,7 +25,8 @@ const ProjectList = [{
 
         ProjectTechnologies: `Main technologies used : WordPress, Elementor, BBPress, Yoast SEO and Google Ads`,
 
-        ProjectLiveLink : 'www.africontinent.com'
+        ProjectLiveLink : 'www.africontinent.com',
+        ProjectID: 'Project-02'
     },
 
 
@@ -34,7 +36,8 @@ const ProjectList = [{
         ProjectDescription: `Quick Credit was the project I was meant to build during Andela's 2 week bootcamp and final stage of the extremely competitive selection process for Cycle 44 of their fellowship.
         I had the frontend rebuilt after failing to make the final cut. Attendng the bootcamp really gave me a proper insight into the skills I needed to build to become a "world class" developer.`,
 
-        ProjectTechnologies: `Main technologies used: HTML5, CSS3, JavaScript(ES6+) and Git.`
+        ProjectTechnologies: `Main technologies used: HTML5, CSS3, JavaScript(ES6+) and Git.`,
+        ProjectID: 'Project-03'
     },
 
     {
@@ -45,7 +48,8 @@ const ProjectList = [{
 
         ProjectTechnologies: `Main technologies used: Wordpress, Elementor, WooCommerce, Java for Android, Payment processors (PayPal and Stripe) and Yoast SEO. `,
 
-        ProjectLiveLink: 'www.wheresweetsmeet.com'
+        ProjectLiveLink: 'www.wheresweetsmeet.com',
+        ProjectID: 'Project-04'
     }
 
 ]
