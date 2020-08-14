@@ -6,7 +6,7 @@ import SocialLink from '../../Components/Buttons/SocialButton/SocialLink';
 
 const Home = (props) => {
     return (
-        <section className={style.Home}>
+        <section className={style.Home} id = 'home'>
             <section className={style.Introduction}>
                 <div>
 

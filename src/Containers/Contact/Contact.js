@@ -4,7 +4,7 @@ import ContactButton from '../../Components/Buttons/ContactButton/ContactButton'
 
 const Contact = (props) => {
     return (
-        <section className={style.Contact}>
+        <section className={style.Contact} id = 'contact'>
             <h2 className={style.SectionTitle}>
                 Contact Me.
             </h2>

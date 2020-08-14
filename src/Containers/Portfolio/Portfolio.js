@@ -6,7 +6,7 @@ import ProjectList from '../../Data/ProjectList';
 const Portfolio = () => {
     return (
 
-        <section className={style.Portfolio}>
+        <section className={style.Portfolio} id = 'portfolio'>
             <h2 className={style.SectionTitle}>
                 Featured Projects.
         </h2>

@@ -1,8 +1,8 @@
 import React from 'react'
 import style from './NavBar.module.css'
 import Logo from '../../Assets/SVG/Logo.svg';
-import { BrowserRouter as Router } from 'react-router-dom'
-// import { NavHashLink as NavLink } from 'react-router-hashlink';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 const NavBar = () => {
     return (
@@ -14,10 +14,32 @@ const NavBar = () => {
 
                     <div className={style.NavItems}>
                         <ul>
+                            <Link
+                                to='home'
+                                smooth='true'
+                                // activeClass = 'none'
+                                >
                                 <li>Home</li>
-                            <li>Portfolio</li>
-                            <li>Contact</li>
-                            <li className={style.Resume}>Resume</li>
+                            </Link>
+
+                            <Link
+                                to='portfolio'
+                                smooth='true'>
+                                <li>Portfolio</li>
+                            </Link>
+
+                            <Link
+                                to='contact'
+                                smooth='true'>
+                                <li>Contact</li>
+                            </Link>
+
+                            <Link
+                                to='home'
+                                smooth='true'>
+                                <li className={style.Resume}>Resume</li>
+                            </Link>
+
                         </ul>
                     </div>
                 </nav>
