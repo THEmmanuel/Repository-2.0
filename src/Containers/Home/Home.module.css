@@ -49,6 +49,12 @@ span {
     font-size: 20px;
 }
 
+.SocialLinks{
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0;
+}
+
 @media(max-width:1280px){
     .Home{
         background-size: 40%;
@@ -56,7 +62,6 @@ span {
 
     .Introduction{
         width: 40%;
-        /* margin-bottom: 70px; */
     }
 
     .NamePre{
@@ -74,7 +79,6 @@ span {
     .LongDescription{
         font-size: 18px;
         width: 90%;
-        /* margin: 70px; */
     }
 
     @media(max-width:720px){
@@ -83,15 +87,10 @@ span {
             background-size: 60%;
             background-position: right 80% bottom 20%;
         }
-
-        /* .Introduction{
-            width: 60%;
-        } */
     }
 
     @media(max-width:480px){
         .Home{
-            /* background-image: url(../../Assets/SVG//Asset\ 10-nobg.svg); */
             background-position:  left 100% bottom 2%;
             background-size: 85%;
         }
@@ -115,6 +114,9 @@ span {
 
         .LongDescription{
             font-size: 14px;
+        }
+        .SocialLinks{
+            margin: 10px 0;
         }
     }
 }
