@@ -25,7 +25,7 @@ const ProjectList = [{
 
         ProjectTechnologies: `Main technologies used : WordPress, Elementor, BBPress, Yoast SEO and Google Ads`,
 
-        ProjectLiveLink : 'www.africontinent.com',
+        ProjectLiveLink : 'https://africontinent.com',
         ProjectID: 'Project-02'
     },
 
@@ -48,7 +48,7 @@ const ProjectList = [{
 
         ProjectTechnologies: `Main technologies used: Wordpress, Elementor, WooCommerce, Java for Android, Payment processors (PayPal and Stripe) and Yoast SEO. `,
 
-        ProjectLiveLink: 'www.wheresweetsmeet.com',
+        ProjectLiveLink: 'http://www.wheresweetsmeet.com',
         ProjectID: 'Project-04'
     }
 
