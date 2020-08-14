@@ -1,6 +1,7 @@
 import React from 'react'
 import style from './NavBar.module.css'
 import Logo from '../../Assets/SVG/Logo.svg'
+// import { NavHashLink as NavLink } from 'react-router-hashlink';
 
 const NavBar = () => {
     return (
@@ -11,7 +12,10 @@ const NavBar = () => {
 
                 <div className={style.NavItems}>
                     <ul>
-                        <li>Home</li>
+                        {/* <NavLink */}
+                            {/* to='#home'> */}
+                            <li>Home</li>
+                        {/* </NavLink> */}
                         <li>Portfolio</li>
                         <li>Contact</li>
                         <li className={style.Resume}>Resume</li>
