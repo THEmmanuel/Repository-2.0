@@ -28,6 +28,13 @@ const Home = (props) => {
 
                 </div>
 
+                <div className = {style.SocialLinks}>
+                    <SocialLink/>
+                    <SocialLink/>
+                    <SocialLink/>
+                    <SocialLink/>
+                </div>
+
                 <div className={style.Buttons}>
                     <PrimaryCTA text='My Work' link = 'stuff'/>
                     <SecondaryCTA text='Contact Me' />
