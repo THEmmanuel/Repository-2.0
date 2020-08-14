@@ -1,24 +1,12 @@
 import React from 'react';
 import style from './Home.module.css';
-// import NavBar from '.././NavBar/NavBar'
 import PrimaryCTA from '../../Components/Buttons/PrimaryCTA/PrimaryCTA';
 import SecondaryCTA from '../../Components/Buttons/SecondaryCTA/SecondaryCTA';
-// import Portfolio from '../Portfolio/Portfolio';
-
-import HomeAnimation from '../../Assets/SVG/Asset 10.svg'
+import SocialLink from '../../Components/Buttons/SocialButton/SocialLink';
 
 const Home = (props) => {
-
-    // const Words = ['amazing', 'awesome', 'stunning', 'beautiful', 'great', 'intuitive']
-    
-    // const WordSelectHandler = () => {
-
-    // }
-    
-
     return (
         <section className={style.Home}>
-            {/* <NavBar /> */}
             <section className={style.Introduction}>
                 <div>
 
@@ -45,9 +33,6 @@ const Home = (props) => {
                     <SecondaryCTA text='Contact Me' />
                 </div>
             </section>
-
-            {/* <span className={style.TextBackground} >Emmanuel</span> */}
-            {/* <img src={HomeAnimation} alt="" className={style.HomeAnimation} /> */}
         </section>
     )
 }
