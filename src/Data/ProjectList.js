@@ -3,7 +3,7 @@ const ProjectList = [{
         ProjectName: 'Github User Search',
         ProjectDescription: `After spending sometime learning react, I decided to build this Webapp as a way to practice and solidify what I had learnt so far. It consumes Github's open API to display the requested GitHub users and their repositories.`,
 
-        ProjectTechnologies: `Main technologies used: React.js, CSS3, JavaScript(ES6+), Axios, React Router, Git and the Github API.`,
+        ProjectTechnologies: `Main technologies used: React.js, CSS3, JavaScript(ES6+), Axios, React Router, Windows Powershell, Git and the Github API.`,
 
         ProjectLiveLink: 'https://themmanuel.github.io/Github-Search/',
         ProjectID: 'Project-01'
@@ -29,7 +29,7 @@ const ProjectList = [{
         ProjectDescription: `Quick Credit was the project I was meant to build during Andela's 2 week bootcamp and final stage of the extremely competitive selection process for Cycle 44 of their fellowship.
         I had the frontend rebuilt after failing to make the final cut. Attendng the bootcamp really gave me a proper insight into the skills I needed to build to become a "world class" developer.`,
 
-        ProjectTechnologies: `Main technologies used: HTML5, CSS3, JavaScript(ES6+) and Git.`,
+        ProjectTechnologies: `Main technologies used: HTML5, CSS3, JavaScript(ES6+), Windows Powershell and Git.`,
         ProjectID: 'Project-03'
     },
 
