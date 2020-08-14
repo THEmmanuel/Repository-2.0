@@ -1,10 +1,3 @@
-// import ProjectImage from '../Assets/TestImage02.png'
-import GithubImage from '../Assets/Images/Github.png' 
-import AfriImage from '../Assets/Images/Africontinent.png' 
-import QuickImage from '../Assets/Images/Quick-Credit.png' 
-import WhereImage from '../Assets/Images/Wheresweetsmeet.png' 
-
-
 const ProjectList = [{
         ProjectImage: 'https://ik.imagekit.io/t2vnkmzt25/Github_WTpEq9uZ3iA.png',
         ProjectName: 'Github User Search',
@@ -48,7 +41,7 @@ const ProjectList = [{
 
         ProjectTechnologies: `Main technologies used: Wordpress, Elementor, WooCommerce, Java for Android, Payment processors (PayPal and Stripe) and Yoast SEO. `,
 
-        ProjectLiveLink: 'http://www.wheresweetsmeet.com',
+        ProjectLiveLink: 'http://wheresweetsmeet.com',
         ProjectID: 'Project-04'
     }
 
