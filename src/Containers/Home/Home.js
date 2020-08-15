@@ -27,12 +27,13 @@ const Home = (props) => {
                     </article>
 
                 </div>
+                <img src=""/>
 
                 <div className = {style.SocialLinks}>
-                    <SocialLink/>
-                    <SocialLink/>
-                    <SocialLink/>
-                    <SocialLink/>
+                    <SocialLink icon = 'https://img.icons8.com/material-outlined/30/DFDFDF/github.png'/>
+                    <SocialLink icon = 'https://img.icons8.com/android/30/DFDFDF/linkedin.png'/>
+                    <SocialLink icon = 'https://img.icons8.com/material-rounded/30/DFDFDF/important-mail.png'/>
+                    <SocialLink icon = 'https://img.icons8.com/android/30/DFDFDF/twitter.png'/>
                 </div>
 
                 <div className={style.Buttons}>
