@@ -29,7 +29,6 @@ const Home = (props) => {
                     </article>
 
                 </div>
-                <img src="" />
 
                 <div className={style.SocialLinks}>
                     <SocialLink icon='https://img.icons8.com/ios/28/DF3E02/github-2.png' />
