@@ -15,9 +15,9 @@ const NavBar = () => {
     const [navOpen, setNavOpen] = useState(false)
     navOpen ? displayNav.display = 'block' : displayNav.display = 'none'
 
-    const navControlHandler = () => {
+    const navToggleHandler = () => {
         setNavOpen(!navOpen)
-        console.log('I ran')
+        // console.log('I ran')
     }
 
 
@@ -28,7 +28,7 @@ const NavBar = () => {
                 <div className={style.NavContentSmall}>
                     <img src={Logo} alt="Main Logo" className={style.NavLogo} />
 
-                    <button className={style.NavHamburger} onClick={navControlHandler}>
+                    <button className={style.NavHamburger} onClick={navToggleHandler}>
                         <img src="" alt="Nav Icon" />
                     </button>
                 </div>
@@ -39,25 +39,27 @@ const NavBar = () => {
                         <Link
                             to='home'
                             smooth='true'>
-                            <li>Home</li>
+                            <li onClick={() => setNavOpen(false)} >Home</li>
                         </Link>
 
                         <Link
                             to='portfolio'
                             smooth='true'>
-                            <li>Portfolio</li>
+                            <li onClick={() => setNavOpen(false)}>Portfolio</li>
                         </Link>
 
                         <Link
                             to='contact'
                             smooth='true'>
-                            <li>Contact</li>
+                            <li onClick={() => setNavOpen(false)}>Contact</li>
                         </Link>
 
                         <Link
                             to='home'
                             smooth='true'>
-                            <li className={style.Resume}>Resume</li>
+                            <li
+                                onClick={() => setNavOpen(false)}
+                                className={style.Resume}>Resume</li>
                         </Link>
 
                     </ul>
