@@ -17,9 +17,9 @@ const Work = () => {
                             Freelance
                         </span>
                         <span className={style.WorkExperienceDescription}>
-                            I built and developed websites using the latest, appropriate and/or specified technologies while adhering to specifications of the high fidelity prototypes I designed or received from my clients from Fiverr and referrals from friends.
+                            I built and developed websites using the latest, appropriate and/or specified technologies while adhering to specifications of the high fidelity prototypes I designed or received from my clients.
                             <br />
-                            More importantly I enhanced my social skills by developing proper communication, comprehension and conflict resolution skills.
+                            Most importantly I enhanced my social skills by developing proper communication, comprehension and conflict resolution skills.
                         </span>
                     </div>
 

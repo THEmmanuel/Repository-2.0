@@ -8,9 +8,9 @@ const ConatctButton = (props) => {
                 {/* <img src="" alt=""/> */}
                 {props.ButtonText}
             </button>
-            <button className={style.CopyButton}>
+            {/* <button className={style.CopyButton}>
                 copy
-                </button>
+                </button> */}
         </div>
     )
 }

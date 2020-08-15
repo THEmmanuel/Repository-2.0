@@ -16,9 +16,7 @@ const NavBar = () => {
                         <ul>
                             <Link
                                 to='home'
-                                smooth='true'
-                                // activeClass = 'none'
-                                >
+                                smooth='true'>
                                 <li>Home</li>
                             </Link>
 

@@ -30,23 +30,6 @@
     
 }
 
-.CopyButton{
-    float: right;
-    margin-left: 10px;
-    border: 1px solid #FF9A75;
-    background-color: transparent;
-    color: #FF9A75;
-    opacity: 87%;
-    transition: all 0.8s ease-out;
-}
-
-.CopyButton:hover{
-    color: #FFF;
-    background-color: #FF9A75;
-    border: none;
-    opacity: 87%;
-}
-
 a{
     text-decoration: none;
 }

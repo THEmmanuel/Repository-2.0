@@ -39,7 +39,7 @@ const ProjectList = [{
         ProjectDescription: `Kofi reached out to me on Fiverr specifying that he needed an online candy store and a place to plug his Amazon affiliate products. The result was WhereSweetsMeet. I integrated the PayPal and Stripe plugins to ensure that his users will have no issues with payment. I also built an Android WebView app for the site.
         I went on to work with Kofi on some of his other websites and blogs.`,
 
-        ProjectTechnologies: `Main technologies used: Wordpress, Elementor, WooCommerce, Java for Android, Payment processors (PayPal and Stripe) and Yoast SEO. `,
+        ProjectTechnologies: `Main technologies used: Wordpress, Elementor, WooCommerce, PHP, Payment processors (PayPal and Stripe) and Yoast SEO. `,
 
         ProjectLiveLink: 'http://wheresweetsmeet.com',
         ProjectID: 'Project-04'
