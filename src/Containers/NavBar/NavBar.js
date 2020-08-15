@@ -1,24 +1,31 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import style from './NavBar.module.css'
 import Logo from '../../Assets/SVG/Logo.svg';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Link, animateScroll as scroll } from 'react-scroll';
+import withSizes from 'react-sizes';
 
 
-
-const NavBar = () => {
+const NavBar = ({ isMobile }) => {
 
     const displayNav = {
         display: 'none',
     }
 
-    const [navOpen, setNavOpen] = useState(false)
+    const [navOpen, setNavOpen] = useState(true)
     navOpen ? displayNav.display = 'block' : displayNav.display = 'none'
 
     const navToggleHandler = () => {
         setNavOpen(!navOpen)
-        // console.log('I ran')
+        console.log({ isMobile })
     }
+    // console.log({ isMobile })
+
+    const mobileCheckHandler = () => {
+        isMobile ? setNavOpen(false) : setNavOpen(true)
+    }
+
+    useEffect(mobileCheckHandler, [])
 
 
     return (
@@ -39,26 +46,26 @@ const NavBar = () => {
                         <Link
                             to='home'
                             smooth='true'>
-                            <li onClick={() => setNavOpen(false)} >Home</li>
+                            <li onClick={() => mobileCheckHandler} >Home</li>
                         </Link>
 
                         <Link
                             to='portfolio'
                             smooth='true'>
-                            <li onClick={() => setNavOpen(false)}>Portfolio</li>
+                            <li onClick={() => mobileCheckHandler}>Portfolio</li>
                         </Link>
 
                         <Link
                             to='contact'
                             smooth='true'>
-                            <li onClick={() => setNavOpen(false)}>Contact</li>
+                            <li onClick={() => mobileCheckHandler}>Contact</li>
                         </Link>
 
                         <Link
                             to='home'
                             smooth='true'>
                             <li
-                                onClick={() => setNavOpen(false)}
+                                onClick={mobileCheckHandler}
                                 className={style.Resume}>Resume</li>
                         </Link>
 
@@ -69,4 +76,9 @@ const NavBar = () => {
 
     )
 }
-export default NavBar;
+
+const mapSizesToProps = ({ width }) => ({
+    isMobile: width < 480,
+})
+
+export default withSizes(mapSizesToProps)(NavBar);
