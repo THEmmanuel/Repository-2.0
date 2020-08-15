@@ -82,6 +82,7 @@
         margin: auto;
         float: none;
         background-color: #121212;
+        font-weight: 400;
     }
 
     .NavItems ul {
@@ -93,6 +94,7 @@
         grid-template-columns: none;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         margin: auto;
+        margin-top: 50%;
         padding-left: 0;
         font-size: 25px;
         /* margin-right: 10px; */
