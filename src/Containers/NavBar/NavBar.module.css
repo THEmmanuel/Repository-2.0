@@ -11,7 +11,7 @@
     background-color: #121212;
 }
 
-.NavItems{
+.NavItems {
     float: right;
     width: 50%;
     max-width: 400px;
@@ -26,7 +26,15 @@
 
 }
 
-.NavItems ul{
+.NavHamburger {
+    float: right;
+    margin: 10px;
+    display: none;
+    width: 30px;
+    height: 30px;
+}
+
+.NavItems ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 30px;
@@ -36,55 +44,70 @@
     cursor: pointer;
 }
 
-.Resume{
+.Resume {
     color: #FF4500;
     font-weight: 800;
     opacity: 87%;
 }
 
 
-@media(max-width:480px){
-    .NavBar{
-        grid-gap: 45px;
-        height: 30px;
+@media(max-width:480px) {
+    .NavBar {
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 5px;
+        height: 45px;
+        padding: 5px;
+        /* width: 90%; */
+        margin: auto;
     }
-    .NavLogo{
+
+    .NavLogo {
         width: 40px;
- }
-
-    .NavItems{
-        margin-right: 10px;
+        /* margin: auto; */
     }
 
-    .NavItems ul{
+    .NavHamburger{
+        display: inline-block
+    }
+
+    .NavItems {
+        /* display: none; */
+        width: 100%;
+        margin-right: 0;
+        margin: auto;
+        float: none;
+    }
+
+    .NavItems ul {
         font-size: 12px;
         grid-gap: 15px;
         width: 0;
         /* margin-right: 10px; */
     }
 
-    .NavItemsContainer{
+    .NavItemsContainer {
         width: 75%;
         margin-right: 45px;
     }
 }
 
-@media(max-width:360px){
-    .NavBar{
+@media(max-width:360px) {
+    .NavBar {
         grid-gap: 15px;
     }
 
-    .NavItems ul{
+    .NavItems ul {
         grid-gap: 15px;
     }
 }
 
-@media(max-width:330px){
-    .NavBar{
+@media(max-width:330px) {
+    .NavBar {
         grid-gap: 8px;
     }
 
-    .NavItems ul{
+    .NavItems ul {
         grid-gap: 10px;
     }
 }

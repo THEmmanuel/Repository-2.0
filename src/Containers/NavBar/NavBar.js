@@ -6,49 +6,48 @@ import { Link, animateScroll as scroll } from 'react-scroll';
 
 const NavBar = () => {
     return (
-        <Router>
-            <header>
-                <nav className={style.NavBar}>
+        <header>
+            <nav className={style.NavBar}>
+
+                <div className={style.NavContentSmall}>
                     <img src={Logo} alt="Main Logo" className={style.NavLogo} />
-                    {/* Logo will be here */}
 
-                    <div className={style.NavItems}>
-                        <ul>
-                            <Link
-                                to='home'
-                                smooth='true'>
-                                <li>Home</li>
-                            </Link>
+                    <button className={style.NavHamburger}>
+                        <img src="" alt="Nav Icon" />
+                    </button>
+                </div>
 
-                            <Link
-                                to='portfolio'
-                                smooth='true'>
-                                <li>Portfolio</li>
-                            </Link>
+                <div className={style.NavItems}>
+                    <ul>
+                        <Link
+                            to='home'
+                            smooth='true'>
+                            <li>Home</li>
+                        </Link>
 
-                            <Link
-                                to='contact'
-                                smooth='true'>
-                                <li>Contact</li>
-                            </Link>
+                        <Link
+                            to='portfolio'
+                            smooth='true'>
+                            <li>Portfolio</li>
+                        </Link>
 
-                            <Link
-                                to='home'
-                                smooth='true'>
-                                <li className={style.Resume}>Resume</li>
-                            </Link>
+                        <Link
+                            to='contact'
+                            smooth='true'>
+                            <li>Contact</li>
+                        </Link>
 
-                        </ul>
-                    </div>
-                </nav>
-            </header>
-        </Router>
+                        <Link
+                            to='home'
+                            smooth='true'>
+                            <li className={style.Resume}>Resume</li>
+                        </Link>
+
+                    </ul>
+                </div>
+            </nav>
+        </header>
 
     )
 }
-
-
-// <div className={style.NavItemsContainer}>
-//                         
-//                     </div>
 export default NavBar;
