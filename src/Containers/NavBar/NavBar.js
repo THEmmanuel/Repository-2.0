@@ -1,10 +1,26 @@
-import React from 'react'
+import React, { useState } from 'react'
 import style from './NavBar.module.css'
 import Logo from '../../Assets/SVG/Logo.svg';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Link, animateScroll as scroll } from 'react-scroll';
 
+
+
 const NavBar = () => {
+
+    const displayNav = {
+        display: 'none',
+    }
+
+    const [navOpen, setNavOpen] = useState(false)
+    navOpen ? displayNav.display = 'block' : displayNav.display = 'none'
+
+    const navControlHandler = () => {
+        setNavOpen(!navOpen)
+        console.log('I ran')
+    }
+
+
     return (
         <header>
             <nav className={style.NavBar}>
@@ -12,12 +28,13 @@ const NavBar = () => {
                 <div className={style.NavContentSmall}>
                     <img src={Logo} alt="Main Logo" className={style.NavLogo} />
 
-                    <button className={style.NavHamburger}>
+                    <button className={style.NavHamburger} onClick={navControlHandler}>
                         <img src="" alt="Nav Icon" />
                     </button>
                 </div>
+                {/* ${NavDisplay} */}
 
-                <div className={style.NavItems}>
+                <div className={`${style.NavItems}`} style={displayNav}>
                     <ul>
                         <Link
                             to='home'
