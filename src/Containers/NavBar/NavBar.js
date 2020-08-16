@@ -5,6 +5,11 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import { Link, animateScroll as scroll } from 'react-scroll';
 import withSizes from 'react-sizes';
 
+//Two versions of navbar
+//one for mobile
+//.One for desktop
+// Switch dependng on the viewport width
+
 
 const NavBar = ({ isMobile }) => {
 
@@ -46,26 +51,26 @@ const NavBar = ({ isMobile }) => {
                         <Link
                             to='home'
                             smooth='true'>
-                            <li onClick={() => mobileCheckHandler} >Home</li>
+                            <li onClick={navToggleHandler} >Home</li>
                         </Link>
 
                         <Link
                             to='portfolio'
                             smooth='true'>
-                            <li onClick={() => mobileCheckHandler}>Portfolio</li>
+                            <li onClick={navToggleHandler}>Portfolio</li>
                         </Link>
 
                         <Link
                             to='contact'
                             smooth='true'>
-                            <li onClick={() => mobileCheckHandler}>Contact</li>
+                            <li onClick={navToggleHandler}>Contact</li>
                         </Link>
 
                         <Link
                             to='home'
                             smooth='true'>
                             <li
-                                onClick={mobileCheckHandler}
+                                onClick={navToggleHandler}
                                 className={style.Resume}>Resume</li>
                         </Link>
 
