@@ -21,7 +21,9 @@ const NavBar = ({ isMobile }) => {
     navOpen ? displayNav.display = 'block' : displayNav.display = 'none'
 
     const navToggleHandler = () => {
-        setNavOpen(!navOpen)
+        if (isMobile){
+            setNavOpen(!navOpen)
+        }
         console.log({ isMobile })
     }
     // console.log({ isMobile })
