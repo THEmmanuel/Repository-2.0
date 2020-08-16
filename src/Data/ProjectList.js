@@ -6,6 +6,7 @@ const ProjectList = [{
         ProjectTechnologies: `Main technologies used: React.js, CSS3, JavaScript(ES6+), Axios, React Router, Windows Powershell, Git and the Github API.`,
 
         ProjectLiveLink: 'https://themmanuel.github.io/Github-Search/',
+        ProjectRepoLink: 'https://github.com/THEmmanuel/Github-Search',
         ProjectID: 'Project-01'
     },
 
@@ -31,7 +32,8 @@ const ProjectList = [{
 
         ProjectTechnologies: `Main technologies used: HTML5, CSS3, JavaScript(ES6+), Windows Powershell and Git.`,
         ProjectID: 'Project-03',
-        ProjectLiveLink: 'https://themmanuel.github.io/Quick-Credit/UI'
+        ProjectLiveLink: 'https://themmanuel.github.io/Quick-Credit/UI',
+        ProjectRepoLink: 'https://github.com/THEmmanuel/Quick-Credit'
     },
 
     {

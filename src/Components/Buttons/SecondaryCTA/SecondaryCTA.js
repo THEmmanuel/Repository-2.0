@@ -4,11 +4,11 @@ import style from './SecondaryCTA.module.css'
 
 const SecondaryCTA = (props) => {
     return (
-        <a href={props.link} target='_blank'>
-            <button className={style.SecondaryCTA}>
-                {props.text}
-            </button>
-        </a>
+            <a href={props.link} target='_blank'>
+                <button className={style.SecondaryCTA}>
+                    {props.text}
+                </button>
+            </a>
     )
 }
 
