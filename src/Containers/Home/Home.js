@@ -31,10 +31,10 @@ const Home = (props) => {
                 </div>
 
                 <div className={style.SocialLinks}>
-                    <SocialLink icon='https://img.icons8.com/ios/28/DF3E02/github-2.png' />
-                    <SocialLink icon='https://img.icons8.com/ios/28/DF3E02/linkedin.png' />
-                    <SocialLink icon='https://img.icons8.com/ios/28/DF3E02/medium.png' />
-                    <SocialLink icon='https://img.icons8.com/ios/28/DF3E02/twitter.png' />
+                    <SocialLink icon='https://img.icons8.com/ios/28/DF3E02/github-2.png' link='https://github.com/themmanuel' />
+                    <SocialLink icon='https://img.icons8.com/ios/28/DF3E02/linkedin.png' link='https://www.linkedin.com/in/emmanuel-ayodele-412aa11b3/' />
+                    <SocialLink icon='https://img.icons8.com/ios/28/DF3E02/medium.png' link='https://medium.com/@emmanuelayodele' />
+                    <SocialLink icon='https://img.icons8.com/ios/28/DF3E02/twitter.png' link = 'https://twitter.com/leunamme_dev'/>
                 </div>
 
                 <div className={style.Buttons}>
