@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './About.module.css'
-import TestImage from '../../Assets/testImage.jpg'
-import AboutAnimation from '../../Assets/SVG/Asset 12.svg'
+// import TestImage from '../../Assets/testImage.jpg'
+// import AboutAnimation from '../../Assets/SVG/Asset 12.svg'
 
 const About = () => {
     return (
@@ -10,7 +10,7 @@ const About = () => {
                 About Me.
             </h2>
             <div className={style.AboutContent}>
-                <img src={TestImage} alt="" className={style.AboutImage} />
+                <img src='https://avatars2.githubusercontent.com/u/36299715?s=460&u=c1d0b9a48e10bdd64d6fe30a61e6840daf2bcd33&v=4' alt="Emmanuel Ayodele" className={style.AboutImage} />
                 <div>
                     <span className={style.AboutDescription}>I've always been an artist and building websites and apps have given me the chance to mix my artistic side with my fascination for problem solving. 
                     <p/>
