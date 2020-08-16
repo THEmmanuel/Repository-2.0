@@ -30,7 +30,8 @@ const ProjectList = [{
         I had the frontend rebuilt after failing to make the final cut. Attendng the bootcamp really gave me a proper insight into the skills I needed to build to become a "world class" developer.`,
 
         ProjectTechnologies: `Main technologies used: HTML5, CSS3, JavaScript(ES6+), Windows Powershell and Git.`,
-        ProjectID: 'Project-03'
+        ProjectID: 'Project-03',
+        ProjectLiveLink: 'https://themmanuel.github.io/Quick-Credit/UI'
     },
 
     {

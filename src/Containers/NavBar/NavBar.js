@@ -13,15 +13,25 @@ import withSizes from 'react-sizes';
 
 const NavBar = ({ isMobile }) => {
 
+    let menuImage = ''
+
+
     const displayNav = {
-        display: 'none',
+        opacity: '0',
     }
 
     const [navOpen, setNavOpen] = useState(true)
-    navOpen ? displayNav.display = 'block' : displayNav.display = 'none'
+
+    if (navOpen) {
+        displayNav.opacity= '96%'
+        menuImage = 'https://img.icons8.com/ios/30/FF4500/close-window.png'
+    } else {
+        displayNav.opacity = '0'
+        menuImage = 'https://img.icons8.com/ios/30/FF4500/menu.png'
+    }
 
     const navToggleHandler = () => {
-        if (isMobile){
+        if (isMobile) {
             setNavOpen(!navOpen)
         }
         console.log({ isMobile })
@@ -43,7 +53,7 @@ const NavBar = ({ isMobile }) => {
                     <img src={Logo} alt="Main Logo" className={style.NavLogo} />
 
                     <button className={style.NavHamburger} onClick={navToggleHandler}>
-                        <img src="" alt="Nav Icon" />
+                        <img src={menuImage} alt="Nav Icon" />
                     </button>
                 </div>
                 {/* ${NavDisplay} */}

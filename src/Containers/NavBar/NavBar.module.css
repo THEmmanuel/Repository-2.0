@@ -28,11 +28,13 @@
 
 .NavHamburger {
     float: right;
-    margin: 10px;
-    margin-bottom: 0;
+    margin: 5px 10px 0 10px;
+    /* margin-bottom: 0; */
     display: none;
     width: 30px;
     height: 30px;
+    border: none;
+    background-color: transparent;
 }
 
 .NavItems ul {
@@ -51,7 +53,6 @@
     font-weight: 800;
     opacity: 87%;
 }
-
 
 @media(max-width:480px) {
     .NavBar {
@@ -81,8 +82,10 @@
         /* margin: 0; */
         margin: auto;
         float: none;
-        background-color: #121212;
+        background-color: #919191;
         font-weight: 400;
+        transition: all 0.5s ease-in;
+        /* opacity: 95%; */
     }
 
     .NavItems ul {
