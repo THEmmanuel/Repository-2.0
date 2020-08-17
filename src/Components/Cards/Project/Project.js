@@ -16,7 +16,7 @@ const Project = (props) => {
      
                 <div className={style.ProjectCTAs}>
                     <PrimaryCTA text='Visit Site' link = {props.ProjectLiveLink}/>
-                    <SecondaryCTA text='View Code' link = {props.ProjectRepoLink}/>
+                    <SecondaryCTA text='View Code' link = {props.Project}/>
                 </div>
             </div>
 
