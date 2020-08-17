@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Home.module.css';
-import HomePrimaryCTA from '../../Components/Buttons/PrimaryCTA/PrimaryCTA';
+import HomePrimaryCTA from '../../Components/Buttons/HomePrimaryCTA/HomePrimaryCTA';
 import HomeSecondaryCTA from '../../Components/Buttons/HomeSecondaryCTA/HomeSecondaryCTA';
 import SocialLink from '../../Components/Buttons/SocialButton/SocialLink';
 import { Link, animateScroll as scroll } from 'react-scroll';
@@ -39,7 +39,7 @@ const Home = (props) => {
 
                 <div className={style.Buttons}>
                     <Link to='portfolio' smooth='true'>
-                        <PrimaryCTA text='My Work' />
+                        <HomePrimaryCTA text='My Work' />
                     </Link>
 
                     <Link to='contact' smooth='true'>
