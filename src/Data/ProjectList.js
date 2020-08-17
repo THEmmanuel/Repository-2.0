@@ -50,6 +50,4 @@ const ProjectList = [{
 
 ]
 
-
-// ProjectList.map(project => console.log(project.ProjectName));
 export default ProjectList

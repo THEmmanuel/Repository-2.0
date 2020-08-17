@@ -1,5 +1,4 @@
 .Work {
-    /* height: 85vh; */
     background-color: #121212;
     background-image: url(../../Assets//SVG//Asset\ 11-nobg.svg);
     background-repeat: no-repeat;
@@ -16,15 +15,6 @@
     margin: 0;
 }
 
-/* 
-.WorkAnimation {
-    width: 30%;
-    max-width: 600px;
-    position: relative;
-    left: 65%;
-    /* top: 1; */
-/*  */
-
 a{
     color: #FFF;
     font-weight: 800;
@@ -40,22 +30,17 @@ a{
 
 .WorkExperience{
     display: flex;
-    /* grid-template-columns: 1fr 1fr; */
     flex-direction: row;
     color: #FFF;
     opacity: 60%;
-    /* width: 900px; */
     margin: auto;
     font-size: 18px;
     width: 95%;
 }
 
 .WorkTimelineIndicator{
-    /* margin: 0 50px; */
     display: flex;
     flex-direction: column;
-    /* width: 50px; */
-    /* padding: 20px; */
 }
 
 .line{
@@ -63,9 +48,6 @@ a{
     height: 220px;
     background-color: #FF4500;
     margin: 15px auto;
-    /* padding: 20px; */
-    /* margin: 50px; */
-    /* float: right; */
 }
 
 .TimeIndicator {
@@ -74,9 +56,6 @@ a{
     border: 1px solid #FF4500;
     opacity: 38%;
     border-radius: 50%;
-    /* position: relative;
-    left: 50%;
-    right: 50%; */
 }
 
 .Filled {
@@ -85,9 +64,6 @@ a{
     border: none;
     border-radius: 50%;
     background-color: #FF4500;
-    /* position: relative;
-    left: 50%;
-    right: 50%; */
 }
 
 .WorkExperience02{
@@ -97,7 +73,6 @@ a{
 .WorkExperienceContainer{
     width: 45%;
     margin: 10px auto auto auto;
-    /* align-content: center; */
 }
 
 .WorkExperienceTitle{
@@ -110,7 +85,6 @@ a{
 }
 
 .WorkExperienceDescription{
-    /* width: 50%; */
     margin: auto;
     opacity: 60%;
     font-size: 19px;
@@ -120,7 +94,6 @@ a{
 @media(max-width:1280px){
 
     .Work{
-        /* height: 60%; */
         background-size: 35%;
         background-position: left 95%;
     }

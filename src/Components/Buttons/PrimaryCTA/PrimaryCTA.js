@@ -11,5 +11,4 @@ const PrimaryCTA = (props) => {
     )
 }
 
-
 export default PrimaryCTA;

@@ -30,15 +30,12 @@
     grid-gap: 30px;
     margin: auto;
     max-width: 600px;
-    /* width: 100px; */
-    /* background-color: yellow; */
 }
 
 .ContactContent{
     padding: 40px;
     margin: auto;
     padding-bottom: 350px;
-    /* margin-bottom: 250px; */
     max-width: 500px;
     width: 50%;
 }
@@ -47,7 +44,6 @@
     width: 550px;
     position: relative;
     left: 65%;
-    /* top: 75%; */
     bottom: 80px;
 }
 

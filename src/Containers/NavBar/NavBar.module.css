@@ -29,7 +29,6 @@
 .NavHamburger {
     float: right;
     margin: 5px 10px 0 10px;
-    /* margin-bottom: 0; */
     display: none;
     width: 30px;
     height: 30px;
@@ -45,7 +44,6 @@
     margin-top: 10px;
     list-style: none;
     cursor: pointer;
-    /* margin: auto; */
 }
 
 .Resume {
@@ -58,17 +56,14 @@
     .NavBar {
         grid-template-columns: none;
         grid-template-rows: 1fr 1fr;
-        /* grid-gap: 5px; */
         height: 45px;
         padding: 0;
-        /* width: 90%; */
         margin-top: 0;
         margin: auto;
     }
 
     .NavLogo {
         width: 40px;
-        /* margin: auto; */
     }
 
     .NavHamburger {
@@ -76,23 +71,18 @@
     }
 
     .NavItems {
-        /* display: none; */
         width: 100vw;
         height: 100vh;
-        /* margin: 0; */
         margin: auto;
         float: none;
         background-color: #919191;
         font-weight: 400;
         transition: all 0.5s ease-in;
-        /* opacity: 95%; */
     }
 
     .NavItems ul {
         font-size: 12px;
-        /* grid-gap: 15px; */
         width: 40%;
-        /* height: 100%; */
         text-align: center;
         grid-template-columns: none;
         grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -100,6 +90,5 @@
         margin-top: 50%;
         padding-left: 0;
         font-size: 25px;
-        /* margin-right: 10px; */
     }
 }

@@ -1,19 +1,11 @@
 .Portfolio {
     background-color: #1F1F1F;
-    /* height: 100vh; */
     background-image: url(../../Assets/SVG/Asset\ 13-nobg.svg);
     background-position: left 90% bottom 10px;
     background-size: 30%;
     background-repeat: no-repeat;
     padding-bottom: 250px;
 }
-
-/* .PortfolioAnimation {
-    width: 500px;
-    left: 65%;
-    bottom: 150px;
-    position: relative;
-} */
 
 .SectionTitle{
     color: #FF4500;
