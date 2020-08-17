@@ -3,7 +3,7 @@ import style from './Home.module.css';
 import HomePrimaryCTA from '../../Components/Buttons/HomePrimaryCTA/HomePrimaryCTA';
 import HomeSecondaryCTA from '../../Components/Buttons/HomeSecondaryCTA/HomeSecondaryCTA';
 import SocialLink from '../../Components/Buttons/SocialButton/SocialLink';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 
 const Home = (props) => {

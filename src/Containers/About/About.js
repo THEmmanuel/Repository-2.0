@@ -1,7 +1,5 @@
 import React from 'react'
 import style from './About.module.css'
-// import TestImage from '../../Assets/testImage.jpg'
-// import AboutAnimation from '../../Assets/SVG/Asset 12.svg'
 
 const About = () => {
     return (
@@ -23,7 +21,6 @@ const About = () => {
                     </span>
                 </div>
             </div>
-        {/* <img src={AboutAnimation} alt="" className={style.AboutAnimation} /> */}
         </section>
     )
 }

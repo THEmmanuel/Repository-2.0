@@ -6,24 +6,23 @@ import ProjectList from '../../Data/ProjectList';
 const Portfolio = () => {
     return (
 
-        <section className={style.Portfolio} id = 'portfolio'>
+        <section className={style.Portfolio} id='portfolio'>
             <h2 className={style.SectionTitle}>
                 Featured Projects.
         </h2>
             <div className={style.Projects}>
                 {ProjectList.map((project) =>
                     <Project
-                        ProjectName = {project.ProjectName}
-                        ProjectImage = {project.ProjectImage}
-                        ProjectDescription = {project.ProjectDescription}
-                        ProjectTechnologies = {project.ProjectTechnologies}
-                        ProjectLiveLink = {project.ProjectLiveLink}
-                        ProjectRepoLink = {project.ProjectRepoLink}
-                        key = {project.ProjectID}
-                        
-                     />)}
-            </div>
+                        ProjectName={project.ProjectName}
+                        ProjectImage={project.ProjectImage}
+                        ProjectDescription={project.ProjectDescription}
+                        ProjectTechnologies={project.ProjectTechnologies}
+                        ProjectLiveLink={project.ProjectLiveLink}
+                        ProjectRepoLink={project.ProjectRepoLink}
+                        key={project.ProjectID}
 
+                    />)}
+            </div>
         </section>
 
     )

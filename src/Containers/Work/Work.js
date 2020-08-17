@@ -1,6 +1,5 @@
 import React from 'react';
 import style from './Work.module.css';
-import WorkAnimation from '../../Assets/SVG/Asset 11.svg'
 
 
 const Work = () => {
@@ -50,7 +49,6 @@ const Work = () => {
                 </div>
 
             </div>
-            {/* <img src={WorkAnimation} alt="" className={style.WorkAnimation} /> */}
         </section>
     )
 }

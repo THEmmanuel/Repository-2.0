@@ -16,7 +16,7 @@ const Contact = (props) => {
                     Kindly reach out to me!
                     <br />
                     I genuinely look forward to working and sharing ideas with people.
-                    Lets talk about your awesome project or ideas.
+                    Lets talk about your awesome project or idea.
                 </span>
 
                 <div className={style.ContactButtons}>
@@ -27,11 +27,9 @@ const Contact = (props) => {
                     <a href="tel:+2348136934963">
                         <ContactButton ButtonText='+2348136934963' />
                     </a>
-                    {/* <ContactButton ButtonText = /> */}
                 </div>
 
             </div>
-            {/* <img src={ContactAnimation} alt="" className={style.ContactAnimation} /> */}
         </section>
     )
 }

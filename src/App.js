@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
         <NavBar/>
-        <Home id = 'home'/>
+        <Home/>
         <Portfolio/>
         <Work/>
         <About/>

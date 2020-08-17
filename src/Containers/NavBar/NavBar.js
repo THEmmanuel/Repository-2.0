@@ -1,15 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import style from './NavBar.module.css'
 import Logo from '../../Assets/SVG/Logo.svg';
-import { BrowserRouter as Router } from 'react-router-dom';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link} from 'react-scroll';
 import withSizes from 'react-sizes';
-
-//Two versions of navbar
-//one for mobile
-//.One for desktop
-// Switch dependng on the viewport width
-
 
 const NavBar = ({ isMobile }) => {
 
@@ -29,7 +22,6 @@ const NavBar = ({ isMobile }) => {
         menuImage = 'https://img.icons8.com/ios/30/FF4500/close-window.png'
     } else {
         displayNav.display = 'none'
-        // displayNav.opacity = '0'
         menuImage = 'https://img.icons8.com/ios/30/FF4500/menu.png'
     }
 
@@ -37,9 +29,7 @@ const NavBar = ({ isMobile }) => {
         if (isMobile) {
             setNavOpen(!navOpen)
         }
-        console.log({ isMobile })
     }
-    // console.log({ isMobile })
 
     const mobileCheckHandler = () => {
         isMobile ? setNavOpen(false) : setNavOpen(true)

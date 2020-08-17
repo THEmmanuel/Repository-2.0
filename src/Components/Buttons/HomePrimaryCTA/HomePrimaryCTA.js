@@ -1,17 +1,12 @@
 import React from 'react';
 import style from '../PrimaryCTA/PrimaryCTA.module.css'
 
-const PrimaryCTA = (props) => {
+const HomePrimaryCTA = (props) => {
     return (
-        <>
-            {/* <a href={props.link} target='_blank'> */}
-                <button className={style.PrimaryCTA}>
-                    {props.text}
-                </button>
-            {/* </a> */}
-        </>
+        <button className={style.PrimaryCTA}>
+            {props.text}
+        </button>
     )
 }
 
-
-export default PrimaryCTA;
+export default HomePrimaryCTA;
