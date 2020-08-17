@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Home.module.css';
-import PrimaryCTA from '../../Components/Buttons/PrimaryCTA/PrimaryCTA';
+import HomePrimaryCTA from '../../Components/Buttons/PrimaryCTA/PrimaryCTA';
 import HomeSecondaryCTA from '../../Components/Buttons/HomeSecondaryCTA/HomeSecondaryCTA';
 import SocialLink from '../../Components/Buttons/SocialButton/SocialLink';
 import { Link, animateScroll as scroll } from 'react-scroll';
