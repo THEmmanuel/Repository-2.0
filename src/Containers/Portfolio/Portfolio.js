@@ -20,6 +20,7 @@ const Portfolio = () => {
                         ProjectLiveLink = {project.ProjectLiveLink}
                         ProjectRepoLink = {project.ProjectRepoLink}
                         key = {project.ProjectID}
+                        
                      />)}
             </div>
 
