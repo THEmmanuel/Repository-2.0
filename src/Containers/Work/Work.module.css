@@ -86,6 +86,7 @@ a{
 
 .WorkExperienceDescription{
     margin: auto;
+    /* max-width: 600px; */
     opacity: 60%;
     font-size: 19px;
 }
