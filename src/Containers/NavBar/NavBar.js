@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from 'react'
 import style from './NavBar.module.css'
 import Logo from '../../Assets/SVG/Logo.svg';
-import { Link} from 'react-scroll';
+import { Link } from 'react-scroll';
 import withSizes from 'react-sizes';
+
+//Todo : Addd a smaller navbar
+//switch to the smaller navbar when width is less 480px
 
 const NavBar = ({ isMobile }) => {
 
@@ -17,8 +20,8 @@ const NavBar = ({ isMobile }) => {
     const [navOpen, setNavOpen] = useState(true)
 
     if (navOpen) {
-        displayNav.display= 'block'
-        displayNav.opacity= '0.98'
+        displayNav.display = 'block'
+        displayNav.opacity = '0.98'
         menuImage = 'https://img.icons8.com/ios/30/FF4500/close-window.png'
     } else {
         displayNav.display = 'none'
@@ -33,6 +36,7 @@ const NavBar = ({ isMobile }) => {
 
     const mobileCheckHandler = () => {
         isMobile ? setNavOpen(false) : setNavOpen(true)
+        console.log('I just ran')
     }
 
     useEffect(mobileCheckHandler, [])
@@ -53,31 +57,44 @@ const NavBar = ({ isMobile }) => {
 
                 <div className={`${style.NavItems}`} style={displayNav}>
                     <ul>
-                        <Link
-                            to='home'
-                            smooth='true'>
-                            <li onClick={navToggleHandler} >Home</li>
-                        </Link>
 
-                        <Link
-                            to='portfolio'
-                            smooth='true'>
-                            <li onClick={navToggleHandler}>Portfolio</li>
-                        </Link>
+                        <li >
+                            <Link
+                                to='home'
+                                smooth='true'
+                                onClick={navToggleHandler}>
+                                Home
+                            </Link>
+                        </li>
 
-                        <Link
-                            to='contact'
-                            smooth='true'>
-                            <li onClick={navToggleHandler}>Contact</li>
-                        </Link>
+                        <li>
+                            <Link
+                                to='portfolio'
+                                smooth='true'
+                                onClick={navToggleHandler}>
+                                Portfolio
+                             </Link>
+                        </li>
 
-                        <Link
-                            to='home'
-                            smooth='true'>
-                            <li
+                        <li onClick={navToggleHandler}>
+                            <Link
+                                to='contact'
+                                smooth='true'
+                                onClick={navToggleHandler}>
+                                Contact
+                            </Link>
+                        </li>
+
+
+                        <li onClick={navToggleHandler}>
+                            <Link
+                                to='home'
+                                smooth='true'
                                 onClick={navToggleHandler}
-                                className={style.Resume}>Resume</li>
-                        </Link>
+                                className={style.Resume}>
+                                Resume
+                            </Link>
+                        </li>
 
                     </ul>
                 </div>
@@ -88,7 +105,7 @@ const NavBar = ({ isMobile }) => {
 }
 
 const mapSizesToProps = ({ width }) => ({
-    isMobile: width < 480,
+    isMobile: width < 510,
 })
 
 export default withSizes(mapSizesToProps)(NavBar);
