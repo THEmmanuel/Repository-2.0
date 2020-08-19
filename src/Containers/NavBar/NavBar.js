@@ -14,17 +14,19 @@ const NavBar = ({ isMobile }) => {
 
     const displayNav = {
         opacity: '0',
-        display: 'none'
+        pointerEvents : 'none'
+        // display: 'none'
     }
 
     const [navOpen, setNavOpen] = useState(true)
 
     if (navOpen) {
-        displayNav.display = 'block'
+        // displayNav.display = 'block'
         displayNav.opacity = '0.98'
+        displayNav.pointerEvents = 'all'
         menuImage = 'https://img.icons8.com/ios/30/FF4500/close-window.png'
     } else {
-        displayNav.display = 'none'
+        displayNav.opacity = '0'
         menuImage = 'https://img.icons8.com/ios/30/FF4500/menu.png'
     }
 
