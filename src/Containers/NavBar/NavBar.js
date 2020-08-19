@@ -4,8 +4,6 @@ import Logo from '../../Assets/SVG/Logo.svg';
 import { Link } from 'react-scroll';
 import withSizes from 'react-sizes';
 
-//Todo : Addd a smaller navbar
-//switch to the smaller navbar when width is less 480px
 
 const NavBar = ({ isMobile }) => {
 
