@@ -24,19 +24,19 @@ span {
     font-size: 20px;
     font-weight: 600;
     color: #FFF;
-    opacity: 38%;
+    opacity: 0.38;
 }
 
 .Name {
     font-size: 80px;
     color: #FFf;
-    opacity: 87%;
+    opacity: 0.87;
     font-weight: bold;
 }
 
 .ShortDescription {
     color: #FF4500;
-    opacity: 60%;
+    opacity: 0.6;
     font-size: 35px;
     font-weight: 650;
 }
@@ -44,7 +44,7 @@ span {
 .LongDescription{
     color : #FFF;
     width: 70%;
-    opacity: 60%;
+    opacity: 0.6;
     text-align: left;
     font-size: 20px;
 }

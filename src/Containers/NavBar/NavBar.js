@@ -18,7 +18,7 @@ const NavBar = ({ isMobile }) => {
 
     if (navOpen) {
         displayNav.display= 'block'
-        displayNav.opacity= '98%'
+        displayNav.opacity= '0.98'
         menuImage = 'https://img.icons8.com/ios/30/FF4500/close-window.png'
     } else {
         displayNav.display = 'none'
