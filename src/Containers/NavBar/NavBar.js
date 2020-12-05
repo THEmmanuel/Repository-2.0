@@ -84,13 +84,14 @@ const NavBar = ({ isMobile }) => {
 
 
                         <li onClick={navToggleHandler}>
-                            <Link
-                                to='home'
-                                smooth='true'
+                            <a
+                                href="https://drive.google.com/file/d/1UquM5ECcvNU3w48uXYe42RsUCkbuphWD/view?usp=sharing" 
+                                target="_blank"
+                                 rel="noopener noreferrer"
                                 onClick={navToggleHandler}
                                 className={style.Resume}>
                                 Resume
-                            </Link>
+                            </a>
                         </li>
 
                     </ul>
