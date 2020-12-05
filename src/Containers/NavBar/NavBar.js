@@ -13,13 +13,11 @@ const NavBar = ({ isMobile }) => {
     const displayNav = {
         opacity: '0',
         pointerEvents : 'none'
-        // display: 'none'
     }
 
     const [navOpen, setNavOpen] = useState(true)
 
     if (navOpen) {
-        // displayNav.display = 'block'
         displayNav.opacity = '0.98'
         displayNav.pointerEvents = 'all'
         menuImage = 'https://img.icons8.com/ios/30/FF4500/close-window.png'
@@ -36,7 +34,6 @@ const NavBar = ({ isMobile }) => {
 
     const mobileCheckHandler = () => {
         isMobile ? setNavOpen(false) : setNavOpen(true)
-        console.log('I just ran')
     }
 
     useEffect(mobileCheckHandler, [])
