@@ -1,7 +1,7 @@
 const ProjectList = [{
-    ProjectImage: 'https://ik.imagekit.io/t2vnkmzt25/Github_WTpEq9uZ3iA.png',
+        ProjectImage: 'https://ik.imagekit.io/t2vnkmzt25/Group_3_2x_UY2H-F2VBU9U.png',
         ProjectName: 'React Video Caller',
-        ProjectDescription: `I built this Video Calling app after stumbling on an article about the WebRTC API. I found it intriguing and decided to do something with it. Building this was a challenging, enjoyable and rewarding process as I used and learnt about a couple of new technologies.`,
+        ProjectDescription: `I built this Video Call app after stumbling upon an article about the WebRTC API. I found it intriguing and decided to do something with it. Building this was a challenging, enjoyable and rewarding process as I used and learnt about a couple of new technologies.`,
 
         ProjectTechnologies: `Main technologies used: Javascript, React.js, CSS3, Express.js, WebRTC API, socket.io and webpack.`,
 
@@ -9,8 +9,8 @@ const ProjectList = [{
         ProjectRepoLink: 'https://github.com/THEmmanuel/React-Video-Call-02',
         ProjectID: 'Project-01'
     },
-    
-    
+
+
     {
         ProjectImage: 'https://ik.imagekit.io/t2vnkmzt25/Github_WTpEq9uZ3iA.png',
         ProjectName: 'Github User Search',
@@ -32,7 +32,7 @@ const ProjectList = [{
 
         ProjectTechnologies: `Main technologies used : WordPress, Elementor, BBPress, Yoast SEO and Google Ads`,
 
-        ProjectLiveLink : 'https://africontinent.com',
+        ProjectLiveLink: 'https://africontinent.com',
         ProjectID: 'Project-03'
     },
 
