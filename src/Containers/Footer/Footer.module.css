@@ -4,6 +4,8 @@
 }
 
 .FooterText {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
     font-size: 18px;
     font-weight: 600;

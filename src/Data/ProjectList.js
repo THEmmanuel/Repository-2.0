@@ -1,4 +1,17 @@
 const ProjectList = [{
+    ProjectImage: 'https://ik.imagekit.io/t2vnkmzt25/Github_WTpEq9uZ3iA.png',
+        ProjectName: 'React Video Caller',
+        ProjectDescription: `I built this Video Calling app after stumbling on an article about the WebRTC API. I found it intriguing and decided to do something with it. Building this was a challenging, enjoyable and rewarding process as I used and learnt about a couple of new technologies.`,
+
+        ProjectTechnologies: `Main technologies used: Javascript, React.js, CSS3, Express.js, WebRTC API, socket.io and webpack.`,
+
+        ProjectLiveLink: 'https://infinite-bayou-00748.herokuapp.com',
+        ProjectRepoLink: 'https://github.com/THEmmanuel/React-Video-Call-02',
+        ProjectID: 'Project-01'
+    },
+    
+    
+    {
         ProjectImage: 'https://ik.imagekit.io/t2vnkmzt25/Github_WTpEq9uZ3iA.png',
         ProjectName: 'Github User Search',
         ProjectDescription: `After spending sometime learning react, I decided to build this Webapp as a way to practice and solidify what I had learnt so far. It consumes Github's open API to display the requested GitHub users and their repositories.`,
@@ -7,7 +20,7 @@ const ProjectList = [{
 
         ProjectLiveLink: 'https://themmanuel.github.io/Github-Search/',
         ProjectRepoLink: 'https://github.com/THEmmanuel/Github-Search',
-        ProjectID: 'Project-01'
+        ProjectID: 'Project-02'
     },
 
 
@@ -20,7 +33,7 @@ const ProjectList = [{
         ProjectTechnologies: `Main technologies used : WordPress, Elementor, BBPress, Yoast SEO and Google Ads`,
 
         ProjectLiveLink : 'https://africontinent.com',
-        ProjectID: 'Project-02'
+        ProjectID: 'Project-03'
     },
 
 
@@ -31,7 +44,7 @@ const ProjectList = [{
         I had the frontend rebuilt after failing to make the final cut. Attendng the bootcamp really gave me a proper insight into the skills I needed to build to become a "world class" developer.`,
 
         ProjectTechnologies: `Main technologies used: HTML5, CSS3, JavaScript(ES6+), Windows Powershell and Git.`,
-        ProjectID: 'Project-03',
+        ProjectID: 'Project-04',
         ProjectLiveLink: 'https://themmanuel.github.io/Quick-Credit/UI',
         ProjectRepoLink: 'https://github.com/THEmmanuel/Quick-Credit'
     },
@@ -45,7 +58,7 @@ const ProjectList = [{
         ProjectTechnologies: `Main technologies used: Wordpress, Elementor, WooCommerce, PHP, Payment processors (PayPal and Stripe) and Yoast SEO. `,
 
         ProjectLiveLink: 'http://wheresweetsmeet.com',
-        ProjectID: 'Project-04'
+        ProjectID: 'Project-05'
     }
 
 ]
