@@ -85,7 +85,7 @@ const NavBar = ({ isMobile }) => {
 
                         <li onClick={navToggleHandler}>
                             <a
-                                href="https://drive.google.com/file/d/1UquM5ECcvNU3w48uXYe42RsUCkbuphWD/view?usp=sharing" 
+                                href="https://drive.google.com/file/d/1gudfLsgowzYm5q5CTP7VdatKIFUhkp21/view?usp=sharing" 
                                 target="_blank"
                                  rel="noopener noreferrer"
                                 onClick={navToggleHandler}
